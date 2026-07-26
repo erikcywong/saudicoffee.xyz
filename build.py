@@ -397,7 +397,7 @@ NAV_HTML = """<nav>
     <li class="nav-dropdown">
       <a href="market.html" data-i18n="common.nav_market">Market</a>
       <div class="dropdown-menu">
-        <a href="market.html" data-i18n="common.dd_market_size">Market Size & Growth</a>
+        <a href="market.html" data-i18n="common.dd_market_size">Market Size &amp; Growth</a>
         <a href="market.html" data-i18n="common.dd_market_sub">Import Substitution</a>
         <a href="market.html" data-i18n="common.dd_market_charts">Growth Charts</a>
       </div>
@@ -423,9 +423,15 @@ NAV_HTML = """<nav>
       <a href="financials.html" data-i18n="common.nav_financials">Financials</a>
       <div class="dropdown-menu">
         <a href="financials.html" data-i18n="common.dd_fin_invest">Investment Allocation</a>
-        <a href="financials.html" data-i18n="common.dd_fin_pl">P&L Summary</a>
+        <a href="financials.html" data-i18n="common.dd_fin_pl">P&amp;L Summary</a>
         <a href="financials.html" data-i18n="common.dd_fin_roi">ROI Metrics</a>
       </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="risks.html" data-i18n="common.nav_risks">Risks</a>
+    </li>
+    <li class="nav-dropdown">
+      <a href="alignment.html" data-i18n="common.nav_alignment">Alignment</a>
     </li>
     <li class="nav-dropdown">
       <a href="blueprints.html" data-i18n="common.nav_blueprints">Blueprints</a>
@@ -445,7 +451,30 @@ NAV_HTML = """<nav>
     </div>
     <a href="contact.html" class="nav-cta" data-i18n="common.nav_connect">Connect</a>
   </div>
-</nav>"""
+  <button class="hamburger" id="hamburger" aria-label="Menu" onclick="toggleMobileMenu()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html" data-i18n="common.nav_summary">Summary</a>
+  <a href="context.html" data-i18n="common.nav_context">Context</a>
+  <a href="technology.html" data-i18n="common.nav_technology">Technology</a>
+  <a href="market.html" data-i18n="common.nav_market">Market</a>
+  <a href="proposal.html" data-i18n="common.nav_proposal">Proposal</a>
+  <a href="roadmap.html" data-i18n="common.nav_roadmap">Roadmap</a>
+  <a href="financials.html" data-i18n="common.nav_financials">Financials</a>
+  <a href="risks.html" data-i18n="common.nav_risks">Risks</a>
+  <a href="alignment.html" data-i18n="common.nav_alignment">Alignment</a>
+  <a href="blueprints.html" data-i18n="common.nav_blueprints">Blueprints</a>
+  <a href="drawings.html" data-i18n="common.nav_drawings">Drawings</a>
+  <a href="contact.html" class="mobile-cta" data-i18n="common.nav_connect">Connect</a>
+  <div class="mobile-lang-switcher">
+    <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中文</button>
+    <button class="lang-btn" data-lang="ar" onclick="setLang('ar')">العربية</button>
+  </div>
+</div>
+<div class="mobile-overlay" id="mobileOverlay" onclick="toggleMobileMenu()"></div>"""
 
 FOOTER_HTML = """<footer>
   <p data-i18n="common.footer_rights">Napell Biotech (Hong Kong) Ltd. — All Rights Reserved.</p>

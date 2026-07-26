@@ -1,3 +1,36 @@
+// Mobile menu toggle
+function toggleMobileMenu() {
+  var menu = document.getElementById('mobileMenu');
+  var hamburger = document.getElementById('hamburger');
+  var overlay = document.getElementById('mobileOverlay');
+  if (menu) {
+    menu.classList.toggle('open');
+    hamburger.classList.toggle('active');
+    if (overlay) overlay.classList.toggle('show');
+    document.body.style.overflow = menu.classList.contains('open') ? 'hidden' : '';
+  }
+}
+
+// Close mobile menu when a link is clicked
+document.addEventListener('DOMContentLoaded', function() {
+  var mobileMenu = document.getElementById('mobileMenu');
+  if (mobileMenu) {
+    mobileMenu.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        var menu = document.getElementById('mobileMenu');
+        var hamburger = document.getElementById('hamburger');
+        var overlay = document.getElementById('mobileOverlay');
+        if (menu && menu.classList.contains('open')) {
+          menu.classList.remove('open');
+          hamburger.classList.remove('active');
+          if (overlay) overlay.classList.remove('show');
+          document.body.style.overflow = '';
+        }
+      });
+    });
+  }
+});
+
 // Blueprint tab switching
 function switchBPTab(tab) {
   document.querySelectorAll('.bp-tab').forEach(btn => {
