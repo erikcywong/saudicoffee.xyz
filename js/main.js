@@ -48,6 +48,7 @@ var importChart, substitutionChart, projectionChart;
 var chartLabels = {
   en: {
     years: ['2017','2018','2019','2020','2021E','2022E','2023E','2024E','2025E','2026E'],
+    projYears: ['2027','2028','2029','2030','2031E','2032E','2033E','2034E','2035E','2036E','2037E'],
     volume: 'Import Volume (tons)',
     value: 'Import Value ($M)',
     substitution: 'Napell Supply (tons)',
@@ -59,6 +60,7 @@ var chartLabels = {
   },
   zh: {
     years: ['2021','2022','2023','2024','2025E','2026E','2027E','2028E','2029E','2030E'],
+    projYears: ['2027','2028','2029','2030','2031E','2032E','2033E','2034E','2035E','2036E','2037E'],
     volume: '进口量（吨）',
     value: '进口额（百万美元）',
     substitution: 'Napell供应（吨）',
@@ -70,6 +72,7 @@ var chartLabels = {
   },
   ar: {
     years: ['2021','2022','2023','2024','2025E','2026E','2027E','2028E','2029E','2030E'],
+    projYears: ['2027','2028','2029','2030','2031E','2032E','2033E','2034E','2035E','2036E','2037E'],
     volume: 'حجم الاستيراد (طن)',
     value: 'قيمة الاستيراد (مليون $)',
     substitution: 'إمداد Napell (طن)',
@@ -200,11 +203,11 @@ function makeProjectionChart() {
   projectionChart = new Chart(ctx, {
     type: 'line',
     data: {
-      labels: L.years,
+      labels: L.projYears,
       datasets: [
         {
           label: L.revenue,
-          data: [0, 0, 2, 8, 25, 55, 86, 120, 165, 210],
+          data: [0, 0, 2, 8, 25, 55, 86, 120, 165, 210, 260],
           borderColor: chartColors.accent,
           backgroundColor: chartColors.accent + '20',
           borderWidth: 3,
@@ -214,7 +217,7 @@ function makeProjectionChart() {
         },
         {
           label: L.ebitda,
-          data: [-5, -8, -3, 5, 15, 31, 45, 62, 82, 105],
+          data: [-5, -8, -3, 5, 15, 31, 45, 62, 82, 105, 130],
           borderColor: chartColors.green,
           backgroundColor: 'transparent',
           borderWidth: 3,
@@ -253,7 +256,7 @@ function updateChartLabels(lang) {
     substitutionChart.update();
   }
   if (projectionChart) {
-    projectionChart.data.labels = L.years;
+    projectionChart.data.labels = L.projYears;
     projectionChart.data.datasets[0].label = L.revenue;
     projectionChart.data.datasets[1].label = L.ebitda;
     projectionChart.update();

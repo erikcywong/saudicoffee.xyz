@@ -398,9 +398,9 @@ const I18N = {
       "ar": "العنوان: <strong>\"طريقة ونظام إدارة الزراعة طوال الدورة بناءً على الضبوب بالغاز والسائل\"</strong>"
     },
     "patent_applicant": {
-      "en": "Applicant: Guangzhou Herang Modern Agriculture Technology Co., Ltd. | Inventors: Zhuang Xuexiong, Wu Jingrui, Chen Baoshan",
-      "zh": "申请人：广州禾穰现代农业科技有限公司 | 发明人：庄学雄、吴镜锐、陈宝珊",
-      "ar": "مقدم الطلب: شركة قوانغتشو هيرانغ للتقنية الزراعية الحديثة المحدودة | المخترعون: تشوانغ شيويشيونغ، وو جينغروي، تشن باوشان"
+      "en": "",
+      "zh": "",
+      "ar": ""
     },
     "patent_claims": {
       "en": "10 Claims | 15-page Specification | 3-page Drawings",
