@@ -79,7 +79,7 @@
   <rect x="760" y="200" width="240" height="200" rx="8" fill="#111820" stroke="#f59e0b" stroke-width="1.5" filter="url(#shadow)"/>
   <text x="785" y="228" fill="#f59e0b" font-size="16" font-weight="700">Tissue Culture Output</text>
   <text x="785" y="258" fill="#94a3b8" font-size="12">1 mother → 1,000,000</text>
-  <text x="785" y="278" fill="#94a3b8" font-size="12">clones/year</ text>
+  <text x="785" y="278" fill="#94a3b8" font-size="12">clones/year</text>
   <text x="785" y="298" fill="#94a3b8" font-size="12">Virus-free, uniform</text>
   <text x="785" y="318" fill="#94a3b8" font-size="12">genetic background</text>
   <line x1="785" y1="335" x2="975" y2="335" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.5"/>
