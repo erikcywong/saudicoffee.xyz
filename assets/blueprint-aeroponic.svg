@@ -1,0 +1,612 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1500" font-family="'Inter','SF Pro Display',-apple-system,sans-serif">
+  <defs>
+    <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(29,155,240,0.04)" stroke-width="1"/>
+    </pattern>
+    <pattern id="gridFine2" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(29,155,240,0.02)" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="mistGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d9bf0" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#1d9bf0" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#1d9bf0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rootGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#16a34a" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="nutrientGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="chamberGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1520"/>
+      <stop offset="100%" stop-color="#111820"/>
+    </linearGradient>
+    <radialGradient id="atomizerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1d9bf0" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1d9bf0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="droplet" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#5eb3f5" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1d9bf0" stop-opacity="0.3"/>
+    </radialGradient>
+    <marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#1d9bf0"/>
+    </marker>
+    <marker id="arr2Green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#22c55e"/>
+    </marker>
+    <marker id="arr2Orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#f59e0b"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="1500" fill="#0a0f14"/>
+  <rect width="1600" height="1500" fill="url(#gridFine2)"/>
+  <rect width="1600" height="1500" fill="url(#grid2)"/>
+
+  <!-- Title Bar -->
+  <rect x="0" y="0" width="1600" height="72" fill="#0d1520" stroke="#1e293b" stroke-width="1"/>
+  <text x="30" y="35" fill="#1d9bf0" font-size="22" font-weight="800" letter-spacing="1">GAS-LIQUID ATOMIZATION CULTIVATION SYSTEM</text>
+  <text x="30" y="58" fill="#94a3b8" font-size="13" font-weight="500">Aeroponic Coffee Growing Principle — Engineering Blueprint | Patent CN 202611094298.6</text>
+  <rect x="1350" y="18" width="220" height="36" rx="4" fill="rgba(29,155,240,0.1)" stroke="#1d9bf0" stroke-width="1"/>
+  <text x="1460" y="42" fill="#1d9bf0" font-size="13" font-weight="700" text-anchor="middle">REV.01 — July 2026</text>
+
+  <!-- ============ PANEL A: Growing Chamber Cross-Section ============ -->
+  <rect x="20" y="90" width="760" height="720" rx="8" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="20" y="90" width="760" height="32" rx="8" fill="#0d1520" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="40" y="111" fill="#1d9bf0" font-size="13" font-weight="700">FIG.1 — ATOMIZATION GROWING CHAMBER — CROSS-SECTION</text>
+
+  <!-- Chamber exterior walls -->
+  <rect x="100" y="170" width="600" height="550" rx="4" fill="url(#chamberGrad)" stroke="#2a3a4a" stroke-width="2"/>
+
+  <!-- Light bar at top -->
+  <rect x="140" y="185" width="520" height="15" rx="2" fill="#1a2735" stroke="#475569" stroke-width="1"/>
+  <rect x="140" y="185" width="520" height="5" rx="2" fill="rgba(245,158,11,0.3)"/>
+  <text x="400" y="183" fill="#f59e0b" font-size="9" text-anchor="middle">Full-Spectrum LED — 1000-5000 lux (gradient)</text>
+  <!-- Light rays -->
+  <line x1="200" y1="200" x2="200" y2="230" stroke="#f59e0b" stroke-width="0.5" opacity="0.2"/>
+  <line x1="280" y1="200" x2="280" y2="230" stroke="#f59e0b" stroke-width="0.5" opacity="0.2"/>
+  <line x1="360" y1="200" x2="360" y2="230" stroke="#f59e0b" stroke-width="0.5" opacity="0.2"/>
+  <line x1="440" y1="200" x2="440" y2="230" stroke="#f59e0b" stroke-width="0.5" opacity="0.2"/>
+  <line x1="520" y1="200" x2="520" y2="230" stroke="#f59e0b" stroke-width="0.5" opacity="0.2"/>
+  <line x1="600" y1="200" x2="600" y2="230" stroke="#f59e0b" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Plant canopy (top section) -->
+  <text x="80" y="260" fill="#22c55e" font-size="10" font-weight="600">Canopy Zone</text>
+  <line x1="75" y1="265" x2="170" y2="265" stroke="#22c55e" stroke-width="0.5" stroke-dasharray="2,2"/>
+
+  <!-- Plant 1 -->
+  <ellipse cx="220" cy="280" rx="35" ry="12" fill="#22c55e" opacity="0.15"/>
+  <ellipse cx="220" cy="275" rx="28" ry="10" fill="#22c55e" opacity="0.2"/>
+  <ellipse cx="220" cy="270" rx="20" ry="8" fill="#22c55e" opacity="0.25"/>
+  <!-- Trunk -->
+  <rect x="216" y="280" width="8" height="40" fill="#22c55e" opacity="0.3"/>
+
+  <!-- Plant 2 -->
+  <ellipse cx="400" cy="280" rx="40" ry="14" fill="#22c55e" opacity="0.15"/>
+  <ellipse cx="400" cy="275" rx="32" ry="11" fill="#22c55e" opacity="0.2"/>
+  <ellipse cx="400" cy="270" rx="24" ry="8" fill="#22c55e" opacity="0.25"/>
+  <rect x="396" y="280" width="8" height="40" fill="#22c55e" opacity="0.3"/>
+
+  <!-- Plant 3 -->
+  <ellipse cx="580" cy="280" rx="35" ry="12" fill="#22c55e" opacity="0.15"/>
+  <ellipse cx="580" cy="275" rx="28" ry="10" fill="#22c55e" opacity="0.2"/>
+  <ellipse cx="580" cy="270" rx="20" ry="8" fill="#22c55e" opacity="0.25"/>
+  <rect x="576" y="280" width="8" height="40" fill="#22c55e" opacity="0.3"/>
+
+  <!-- Growing tube / support panel -->
+  <rect x="120" y="315" width="560" height="25" rx="3" fill="#1a2735" stroke="#2a3a4a" stroke-width="1.5"/>
+  <text x="400" y="332" fill="#64748b" font-size="9" text-anchor="middle">Planting Panel — 4-Level Vertical Racking System</text>
+
+  <!-- Planting holes with collars -->
+  <circle cx="220" cy="327" r="10" fill="#0a0f14" stroke="#1d9bf0" stroke-width="1"/>
+  <circle cx="220" cy="327" r="6" fill="rgba(34,197,94,0.1)"/>
+  <circle cx="400" cy="327" r="10" fill="#0a0f14" stroke="#1d9bf0" stroke-width="1"/>
+  <circle cx="400" cy="327" r="6" fill="rgba(34,197,94,0.1)"/>
+  <circle cx="580" cy="327" r="10" fill="#0a0f14" stroke="#1d9bf0" stroke-width="1"/>
+  <circle cx="580" cy="327" r="6" fill="rgba(34,197,94,0.1)"/>
+
+  <!-- Root zone label -->
+  <text x="80" y="380" fill="#1d9bf0" font-size="10" font-weight="600">Root Zone</text>
+  <line x1="75" y1="385" x2="170" y2="385" stroke="#1d9bf0" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="80" y="398" fill="#64748b" font-size="9">(Aeroponic)</text>
+
+  <!-- Mist zone background -->
+  <rect x="120" y="340" width="560" height="280" fill="url(#mistGrad)"/>
+
+  <!-- Root systems hanging down -->
+  <!-- Plant 1 roots -->
+  <path d="M 220 340 Q 215 360 210 380 Q 205 410 200 440 Q 198 460 195 480" fill="none" stroke="url(#rootGrad)" stroke-width="2"/>
+  <path d="M 220 340 Q 222 360 225 390 Q 228 420 230 450 Q 232 470 235 490" fill="none" stroke="url(#rootGrad)" stroke-width="2"/>
+  <path d="M 220 340 Q 218 365 215 400 Q 212 430 210 460 Q 208 475 205 485" fill="none" stroke="url(#rootGrad)" stroke-width="1.5"/>
+  <path d="M 220 340 Q 224 355 228 385 Q 232 415 235 445 Q 238 465 240 480" fill="none" stroke="url(#rootGrad)" stroke-width="1.5"/>
+  <!-- Fine root hairs -->
+  <line x1="210" y1="400" x2="205" y2="410" stroke="#22c55e" stroke-width="0.5" opacity="0.4"/>
+  <line x1="225" y1="410" x2="230" y2="420" stroke="#22c55e" stroke-width="0.5" opacity="0.4"/>
+  <line x1="215" y1="430" x2="210" y2="440" stroke="#22c55e" stroke-width="0.5" opacity="0.4"/>
+  <line x1="230" y1="440" x2="235" y2="450" stroke="#22c55e" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Plant 2 roots (bigger) -->
+  <path d="M 400 340 Q 393 365 385 395 Q 378 425 370 460 Q 365 485 360 510" fill="none" stroke="url(#rootGrad)" stroke-width="2.5"/>
+  <path d="M 400 340 Q 403 360 408 395 Q 413 430 420 465 Q 425 490 430 515" fill="none" stroke="url(#rootGrad)" stroke-width="2.5"/>
+  <path d="M 400 340 Q 398 365 395 405 Q 392 440 388 475 Q 385 495 382 510" fill="none" stroke="url(#rootGrad)" stroke-width="2"/>
+  <path d="M 400 340 Q 405 358 410 398 Q 415 435 420 470 Q 423 490 426 505" fill="none" stroke="url(#rootGrad)" stroke-width="2"/>
+  <path d="M 400 340 Q 395 370 388 410 Q 380 450 375 485 Q 372 500 370 510" fill="none" stroke="url(#rootGrad)" stroke-width="1.5"/>
+  <!-- Fine root hairs -->
+  <line x1="385" y1="420" x2="378" y2="430" stroke="#22c55e" stroke-width="0.5" opacity="0.4"/>
+  <line x1="410" y1="430" x2="418" y2="440" stroke="#22c55e" stroke-width="0.5" opacity="0.4"/>
+  <line x1="395" y1="450" x2="388" y2="460" stroke="#22c55e" stroke-width="0.5" opacity="0.4"/>
+  <line x1="415" y1="460" x2="422" y2="470" stroke="#22c55e" stroke-width="0.5" opacity="0.4"/>
+  <line x1="390" y1="480" x2="383" y2="490" stroke="#22c55e" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Plant 3 roots -->
+  <path d="M 580 340 Q 575 360 568 390 Q 562 420 555 450 Q 550 475 545 495" fill="none" stroke="url(#rootGrad)" stroke-width="2"/>
+  <path d="M 580 340 Q 583 358 588 390 Q 593 425 598 455 Q 602 478 605 495" fill="none" stroke="url(#rootGrad)" stroke-width="2"/>
+  <path d="M 580 340 Q 578 365 575 400 Q 572 430 568 460 Q 565 480 562 490" fill="none" stroke="url(#rootGrad)" stroke-width="1.5"/>
+  <path d="M 580 340 Q 585 355 590 390 Q 595 425 600 455 Q 603 475 605 485" fill="none" stroke="url(#rootGrad)" stroke-width="1.5"/>
+
+  <!-- "Air root mat" label -->
+  <text x="680" y="430" fill="#1d9bf0" font-size="10" font-weight="600" text-anchor="end">Dense "Air Root Mat"</text>
+  <line x1="620" y1="425" x2="680" y2="425" stroke="#1d9bf0" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="680" y="445" fill="#64748b" font-size="9" text-anchor="end">300% more O₂ than DWC</text>
+
+  <!-- Mist droplets -->
+  <g opacity="0.7">
+    <circle cx="180" cy="400" r="2" fill="url(#droplet)"/>
+    <circle cx="250" cy="420" r="1.5" fill="url(#droplet)"/>
+    <circle cx="300" cy="380" r="2" fill="url(#droplet)"/>
+    <circle cx="340" cy="450" r="1.5" fill="url(#droplet)"/>
+    <circle cx="370" cy="380" r="2" fill="url(#droplet)"/>
+    <circle cx="450" cy="430" r="2" fill="url(#droplet)"/>
+    <circle cx="470" cy="380" r="1.5" fill="url(#droplet)"/>
+    <circle cx="500" cy="410" r="2" fill="url(#droplet)"/>
+    <circle cx="530" cy="450" r="1.5" fill="url(#droplet)"/>
+    <circle cx="560" cy="390" r="2" fill="url(#droplet)"/>
+    <circle cx="620" cy="420" r="1.5" fill="url(#droplet)"/>
+    <circle cx="640" cy="390" r="2" fill="url(#droplet)"/>
+    <circle cx="190" cy="460" r="1.5" fill="url(#droplet)"/>
+    <circle cx="260" cy="480" r="2" fill="url(#droplet)"/>
+    <circle cx="320" cy="500" r="1.5" fill="url(#droplet)"/>
+    <circle cx="380" cy="530" r="2" fill="url(#droplet)"/>
+    <circle cx="440" cy="500" r="1.5" fill="url(#droplet)"/>
+    <circle cx="500" cy="530" r="2" fill="url(#droplet)"/>
+    <circle cx="550" cy="500" r="1.5" fill="url(#droplet)"/>
+    <circle cx="600" cy="480" r="2" fill="url(#droplet)"/>
+    <circle cx="210" cy="520" r="1.5" fill="url(#droplet)"/>
+    <circle cx="280" cy="540" r="2" fill="url(#droplet)"/>
+    <circle cx="350" cy="560" r="1.5" fill="url(#droplet)"/>
+    <circle cx="420" cy="560" r="2" fill="url(#droplet)"/>
+    <circle cx="480" cy="560" r="1.5" fill="url(#droplet)"/>
+    <circle cx="540" cy="550" r="2" fill="url(#droplet)"/>
+    <circle cx="610" cy="540" r="1.5" fill="url(#droplet)"/>
+  </g>
+
+  <!-- Droplet size annotation -->
+  <text x="150" y="510" fill="#1d9bf0" font-size="10" font-weight="600">5-30μm droplets</text>
+  <line x1="200" y1="507" x2="250" y2="490" stroke="#1d9bf0" stroke-width="0.5" stroke-dasharray="2,1"/>
+
+  <!-- Ultrasonic atomizers at bottom of chamber -->
+  <text x="80" y="620" fill="#f59e0b" font-size="10" font-weight="600">Atomizer Array</text>
+  <line x1="75" y1="625" x2="170" y2="625" stroke="#f59e0b" stroke-width="0.5" stroke-dasharray="2,2"/>
+
+  <!-- Atomizer units -->
+  <rect x="140" y="630" width="60" height="30" rx="3" fill="#1a2735" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="155" cy="645" r="5" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <circle cx="170" cy="645" r="5" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <circle cx="185" cy="645" r="5" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <text x="170" y="675" fill="#f59e0b" font-size="8" text-anchor="middle">1.7MHz</text>
+
+  <rect x="280" y="630" width="60" height="30" rx="3" fill="#1a2735" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="295" cy="645" r="5" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <circle cx="310" cy="645" r="5" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <circle cx="325" cy="645" r="5" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <text x="310" y="675" fill="#f59e0b" font-size="8" text-anchor="middle">1.7MHz</text>
+
+  <rect x="420" y="630" width="60" height="30" rx="3" fill="#1a2735" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="435" cy="645" r="5" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <circle cx="450" cy="645" r="5" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <circle cx="465" cy="645" r="5" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <text x="450" y="675" fill="#f59e0b" font-size="8" text-anchor="middle">1.7MHz</text>
+
+  <rect x="560" y="630" width="60" height="30" rx="3" fill="#1a2735" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="575" cy="645" r="5" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <circle cx="590" cy="645" r="5" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <circle cx="605" cy="645" r="5" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <text x="590" y="675" fill="#f59e0b" font-size="8" text-anchor="middle">1.7MHz</text>
+
+  <!-- Mist direction arrows -->
+  <path d="M 170 630 L 170 600" stroke="#1d9bf0" stroke-width="0.8" stroke-dasharray="2,1" opacity="0.5" marker-end="url(#arr2)"/>
+  <path d="M 310 630 L 310 600" stroke="#1d9bf0" stroke-width="0.8" stroke-dasharray="2,1" opacity="0.5" marker-end="url(#arr2)"/>
+  <path d="M 450 630 L 450 600" stroke="#1d9bf0" stroke-width="0.8" stroke-dasharray="2,1" opacity="0.5" marker-end="url(#arr2)"/>
+  <path d="M 590 630 L 590 600" stroke="#1d9bf0" stroke-width="0.8" stroke-dasharray="2,1" opacity="0.5" marker-end="url(#arr2)"/>
+
+  <!-- Reservoir / drain -->
+  <rect x="120" y="685" width="560" height="30" rx="3" fill="url(#nutrientGrad)" stroke="#f59e0b" stroke-width="1"/>
+  <text x="400" y="705" fill="#f59e0b" font-size="10" text-anchor="middle">Nutrient Solution Reservoir — Closed-Loop Recovery (90% water recycling)</text>
+
+  <!-- Sensors -->
+  <rect x="660" y="350" width="30" height="15" rx="2" fill="#0d1520" stroke="#a855f7" stroke-width="1"/>
+  <text x="675" y="361" fill="#a855f7" font-size="7" text-anchor="middle">RH%</text>
+  <line x1="660" y1="357" x2="630" y2="380" stroke="#a855f7" stroke-width="0.5"/>
+
+  <rect x="660" y="400" width="30" height="15" rx="2" fill="#0d1520" stroke="#a855f7" stroke-width="1"/>
+  <text x="675" y="411" fill="#a855f7" font-size="7" text-anchor="middle">TEMP</text>
+  <line x1="660" y1="407" x2="630" y2="430" stroke="#a855f7" stroke-width="0.5"/>
+
+  <rect x="660" y="450" width="30" height="15" rx="2" fill="#0d1520" stroke="#a855f7" stroke-width="1"/>
+  <text x="675" y="461" fill="#a855f7" font-size="7" text-anchor="middle">pH</text>
+  <line x1="660" y1="457" x2="630" y2="480" stroke="#a855f7" stroke-width="0.5"/>
+
+  <rect x="660" y="500" width="30" height="15" rx="2" fill="#0d1520" stroke="#a855f7" stroke-width="1"/>
+  <text x="675" y="511" fill="#a855f7" font-size="7" text-anchor="middle">EC</text>
+  <line x1="660" y1="507" x2="630" y2="530" stroke="#a855f7" stroke-width="0.5"/>
+
+  <!-- Spray cycle annotation -->
+  <rect x="130" y="725" width="180" height="35" rx="4" fill="rgba(29,155,240,0.05)" stroke="#1d9bf0" stroke-width="1"/>
+  <text x="220" y="742" fill="#1d9bf0" font-size="10" font-weight="600" text-anchor="middle">SPRAY CYCLE</text>
+  <text x="220" y="756" fill="#94a3b8" font-size="9" text-anchor="middle">15s spray → 3min pause → midnight rest</text>
+
+  <!-- ============ PANEL B: Ultrasonic Atomizer Detail ============ -->
+  <rect x="800" y="90" width="780" height="340" rx="8" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="800" y="90" width="780" height="32" rx="8" fill="#0d1520" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="820" y="111" fill="#1d9bf0" font-size="13" font-weight="700">FIG.2 — ULTRASONIC ATOMIZER UNIT — DETAIL VIEW</text>
+
+  <!-- Atomizer housing -->
+  <rect x="900" y="160" width="220" height="180" rx="8" fill="#0d1520" stroke="#2a3a4a" stroke-width="2"/>
+
+  <!-- Transducer discs -->
+  <circle cx="950" cy="210" r="18" fill="#1a2735" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="950" cy="210" r="10" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="1"/>
+  <circle cx="950" cy="210" r="4" fill="#f59e0b" opacity="0.8"/>
+  <text x="950" y="245" fill="#f59e0b" font-size="9" text-anchor="middle">Piezo Disc 1</text>
+
+  <circle cx="1010" cy="210" r="18" fill="#1a2735" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="1010" cy="210" r="10" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="1"/>
+  <circle cx="1010" cy="210" r="4" fill="#f59e0b" opacity="0.8"/>
+  <text x="1010" y="245" fill="#f59e0b" font-size="9" text-anchor="middle">Piezo Disc 2</text>
+
+  <circle cx="1070" cy="210" r="18" fill="#1a2735" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="1070" cy="210" r="10" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="1"/>
+  <circle cx="1070" cy="210" r="4" fill="#f59e0b" opacity="0.8"/>
+  <text x="1070" y="245" fill="#f59e0b" font-size="9" text-anchor="middle">Piezo Disc 3</text>
+
+  <!-- Driver circuit -->
+  <rect x="920" y="270" width="180" height="50" rx="4" fill="#0a0f14" stroke="#475569" stroke-width="1"/>
+  <text x="1010" y="290" fill="#94a3b8" font-size="10" text-anchor="middle">Driver Circuit</text>
+  <text x="1010" y="306" fill="#64748b" font-size="9" text-anchor="middle">1.7MHz oscillator | PWM control</text>
+  <text x="1010" y="316" fill="#64748b" font-size="8" text-anchor="middle">Power: 24V DC | 15W per unit</text>
+
+  <!-- Mist output -->
+  <path d="M 900 200 L 860 170 L 860 250 L 900 220 Z" fill="url(#mistGrad)" opacity="0.5"/>
+  <g opacity="0.6">
+    <circle cx="870" cy="180" r="1.5" fill="url(#droplet)"/>
+    <circle cx="875" cy="195" r="2" fill="url(#droplet)"/>
+    <circle cx="865" cy="210" r="1.5" fill="url(#droplet)"/>
+    <circle cx="880" cy="225" r="1.5" fill="url(#droplet)"/>
+    <circle cx="870" cy="240" r="2" fill="url(#droplet)"/>
+  </g>
+  <text x="830" y="215" fill="#1d9bf0" font-size="9" font-weight="600" text-anchor="end">Mist Output →</text>
+
+  <!-- Spec callouts -->
+  <rect x="1160" y="160" width="180" height="180" rx="6" fill="rgba(29,155,240,0.03)" stroke="#1e293b" stroke-width="1"/>
+  <text x="1250" y="183" fill="#1d9bf0" font-size="11" font-weight="700" text-anchor="middle">ATOMIZER SPECS</text>
+  <line x1="1170" y1="190" x2="1330" y2="190" stroke="#1e293b" stroke-width="0.5"/>
+  <text x="1175" y="208" fill="#94a3b8" font-size="10">Frequency</text>
+  <text x="1325" y="208" fill="#f59e0b" font-size="10" font-weight="700" text-anchor="end">1.7 MHz</text>
+  <text x="1175" y="228" fill="#94a3b8" font-size="10">Droplet Size</text>
+  <text x="1325" y="228" fill="#1d9bf0" font-size="10" font-weight="700" text-anchor="end">5-30 μm</text>
+  <text x="1175" y="248" fill="#94a3b8" font-size="10">Output Rate</text>
+  <text x="1325" y="248" fill="#e2e8f0" font-size="10" font-weight="600" text-anchor="end">0.5 L/hr</text>
+  <text x="1175" y="268" fill="#94a3b8" font-size="10">Power</text>
+  <text x="1325" y="268" fill="#e2e8f0" font-size="10" font-weight="600" text-anchor="end">15W / unit</text>
+  <text x="1175" y="288" fill="#94a3b8" font-size="10">Lifespan</text>
+  <text x="1325" y="288" fill="#22c55e" font-size="10" font-weight="600" text-anchor="end">5,000+ hr</text>
+  <text x="1175" y="308" fill="#94a3b8" font-size="10">Units/chamber</text>
+  <text x="1325" y="308" fill="#e2e8f0" font-size="10" font-weight="600" text-anchor="end">4-8</text>
+  <text x="1175" y="328" fill="#94a3b8" font-size="10">Coverage</text>
+  <text x="1325" y="328" fill="#e2e8f0" font-size="10" font-weight="600" text-anchor="end">2 m² / unit</text>
+
+  <!-- ============ PANEL C: Nutrient Circulation System ============ -->
+  <rect x="800" y="450" width="780" height="360" rx="8" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="800" y="450" width="780" height="32" rx="8" fill="#0d1520" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="820" y="471" fill="#1d9bf0" font-size="13" font-weight="700">FIG.3 — CLOSED-LOOP NUTRIENT CIRCULATION SYSTEM</text>
+
+  <!-- Reservoir tank -->
+  <rect x="850" y="620" width="120" height="80" rx="4" fill="url(#nutrientGrad)" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="910" y="655" fill="#f59e0b" font-size="11" font-weight="700" text-anchor="middle">Nutrient</text>
+  <text x="910" y="670" fill="#f59e0b" font-size="11" font-weight="700" text-anchor="middle">Tank</text>
+  <text x="910" y="688" fill="#64748b" font-size="9" text-anchor="middle">500L | RO water</text>
+
+  <!-- Pump -->
+  <circle cx="1040" cy="660" r="22" fill="#0d1520" stroke="#1d9bf0" stroke-width="2"/>
+  <circle cx="1040" cy="660" r="14" fill="rgba(29,155,240,0.1)" stroke="#1d9bf0" stroke-width="1"/>
+  <text x="1040" y="655" fill="#1d9bf0" font-size="9" font-weight="700" text-anchor="middle">PUMP</text>
+  <text x="1040" y="668" fill="#64748b" font-size="7" text-anchor="middle">0.8 bar</text>
+
+  <!-- Pipe to atomizers -->
+  <path d="M 970 660 L 1018 660" fill="none" stroke="#f59e0b" stroke-width="3"/>
+  <path d="M 1062 660 L 1150 660 L 1150 530" fill="none" stroke="#1d9bf0" stroke-width="3"/>
+  <text x="1100" y="650" fill="#1d9bf0" font-size="9" font-weight="600">Pressurized feed</text>
+
+  <!-- Atomizer array (top) -->
+  <rect x="1100" y="510" width="200" height="40" rx="3" fill="#0d1520" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="1130" cy="530" r="6" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <circle cx="1160" cy="530" r="6" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <circle cx="1190" cy="530" r="6" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <circle cx="1220" cy="530" r="6" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <circle cx="1250" cy="530" r="6" fill="url(#atomizerGlow)" stroke="#f59e0b" stroke-width="0.5"/>
+  <text x="1200" y="500" fill="#f59e0b" font-size="9" text-anchor="middle">Atomizer Array → Root Zone</text>
+
+  <!-- Root zone box -->
+  <rect x="1100" y="560" width="200" height="30" rx="3" fill="rgba(34,197,94,0.05)" stroke="#22c55e" stroke-width="1"/>
+  <text x="1200" y="580" fill="#22c55e" font-size="10" font-weight="600" text-anchor="middle">Root Zone (Aeroponic)</text>
+
+  <!-- Drain/filtration -->
+  <path d="M 1200 590 L 1200 620 L 1200 700 L 1200 710" fill="none" stroke="#22c55e" stroke-width="3"/>
+  <text x="1215" y="660" fill="#22c55e" font-size="9" font-weight="600">Drain →</text>
+
+  <!-- Filter -->
+  <rect x="1150" y="700" width="100" height="35" rx="4" fill="#0d1520" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="1200" y="715" fill="#a855f7" font-size="9" font-weight="600" text-anchor="middle">UV + Carbon</text>
+  <text x="1200" y="728" fill="#64748b" font-size="8" text-anchor="middle">Filter &amp; Sterilizer</text>
+
+  <!-- Return to tank -->
+  <path d="M 1150 717 L 1000 717 L 1000 700 L 970 700" fill="none" stroke="#22c55e" stroke-width="3" marker-end="url(#arr2Green)"/>
+  <text x="1050" y="710" fill="#22c55e" font-size="9" font-weight="600">Recycled (90%)</text>
+
+  <!-- Water recovery callout -->
+  <rect x="1370" y="510" width="190" height="100" rx="6" fill="rgba(34,197,94,0.05)" stroke="#22c55e" stroke-width="1"/>
+  <text x="1465" y="532" fill="#22c55e" font-size="11" font-weight="700" text-anchor="middle">WATER RECOVERY</text>
+  <line x1="1380" y1="540" x2="1550" y2="540" stroke="#1e293b" stroke-width="0.5"/>
+  <text x="1465" y="560" fill="#e2e8f0" font-size="14" font-weight="800" text-anchor="middle">90%</text>
+  <text x="1465" y="575" fill="#94a3b8" font-size="9" text-anchor="middle">Closed-loop recycling rate</text>
+  <text x="1465" y="592" fill="#22c55e" font-size="10" font-weight="600" text-anchor="middle">Zero wastewater discharge</text>
+
+  <!-- Spray timing control -->
+  <rect x="1370" y="625" width="190" height="80" rx="6" fill="rgba(29,155,240,0.05)" stroke="#1d9bf0" stroke-width="1"/>
+  <text x="1465" y="647" fill="#1d9bf0" font-size="11" font-weight="700" text-anchor="middle">SPRAY TIMING</text>
+  <line x1="1380" y1="655" x2="1550" y2="655" stroke="#1e293b" stroke-width="0.5"/>
+  <text x="1385" y="672" fill="#94a3b8" font-size="10">Spray</text>
+  <text x="1545" y="672" fill="#1d9bf0" font-size="10" font-weight="700" text-anchor="end">15 sec</text>
+  <text x="1385" y="688" fill="#94a3b8" font-size="10">Pause</text>
+  <text x="1545" y="688" fill="#f59e0b" font-size="10" font-weight="700" text-anchor="end">3 min</text>
+  <text x="1385" y="700" fill="#64748b" font-size="9">Midnight: full stop</text>
+
+  <!-- ============ PANEL D: Root System Detail ============ -->
+  <rect x="20" y="830" width="760" height="300" rx="8" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="20" y="830" width="760" height="32" rx="8" fill="#0d1520" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="40" y="851" fill="#1d9bf0" font-size="13" font-weight="700">FIG.4 — ROOT OXYGENATION COMPARISON</text>
+
+  <!-- Traditional (soil) -->
+  <rect x="60" y="880" width="200" height="230" rx="6" fill="rgba(168,85,247,0.03)" stroke="#1e293b" stroke-width="1"/>
+  <text x="160" y="900" fill="#a855f7" font-size="11" font-weight="700" text-anchor="middle">TRADITIONAL (SOIL)</text>
+  <!-- Soil -->
+  <rect x="80" y="920" width="160" height="170" rx="3" fill="rgba(168,85,247,0.06)" stroke="#a855f7" stroke-width="0.5"/>
+  <text x="160" y="935" fill="#64748b" font-size="8" text-anchor="middle">Compacted soil</text>
+  <!-- Root in soil -->
+  <path d="M 160 920 Q 155 960 150 1000 Q 145 1040 140 1070" fill="none" stroke="#a855f7" stroke-width="2" opacity="0.4"/>
+  <path d="M 160 920 Q 165 960 170 1000 Q 175 1040 180 1070" fill="none" stroke="#a855f7" stroke-width="2" opacity="0.4"/>
+  <!-- Low O2 indicator -->
+  <text x="160" y="1060" fill="#ef4444" font-size="10" font-weight="600" text-anchor="middle">O₂: Low</text>
+  <text x="160" y="1075" fill="#ef4444" font-size="10" font-weight="600" text-anchor="middle">Rot risk: HIGH</text>
+  <text x="160" y="1095" fill="#64748b" font-size="9" text-anchor="middle">Water: 21,000 L/kg</text>
+
+  <!-- DWC Hydroponic -->
+  <rect x="290" y="880" width="200" height="230" rx="6" fill="rgba(245,158,11,0.03)" stroke="#1e293b" stroke-width="1"/>
+  <text x="390" y="900" fill="#f59e0b" font-size="11" font-weight="700" text-anchor="middle">DWC HYDROPONIC</text>
+  <!-- Water -->
+  <rect x="310" y="920" width="160" height="170" rx="3" fill="rgba(245,158,11,0.06)" stroke="#f59e0b" stroke-width="0.5"/>
+  <text x="390" y="935" fill="#64748b" font-size="8" text-anchor="middle">Static water</text>
+  <!-- Root in water -->
+  <path d="M 390 920 Q 385 960 380 1000 Q 375 1040 370 1070" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <path d="M 390 920 Q 395 960 400 1000 Q 405 1040 410 1070" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <!-- Medium O2 -->
+  <text x="390" y="1060" fill="#f59e0b" font-size="10" font-weight="600" text-anchor="middle">O₂: Medium</text>
+  <text x="390" y="1075" fill="#f59e0b" font-size="10" font-weight="600" text-anchor="middle">Rot risk: MODERATE</text>
+  <text x="390" y="1095" fill="#64748b" font-size="9" text-anchor="middle">Water: 4,000 L/kg</text>
+
+  <!-- Aeroponic (JEBI) -->
+  <rect x="520" y="880" width="220" height="230" rx="6" fill="rgba(34,197,94,0.05)" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="630" y="900" fill="#22c55e" font-size="11" font-weight="700" text-anchor="middle">JEBI AEROPONIC</text>
+  <!-- Air space with mist -->
+  <rect x="540" y="920" width="180" height="170" rx="3" fill="url(#mistGrad)" stroke="#22c55e" stroke-width="0.5"/>
+  <text x="630" y="935" fill="#64748b" font-size="8" text-anchor="middle">Air + Mist</text>
+  <!-- Root with fine hairs -->
+  <path d="M 630 920 Q 625 950 620 990 Q 615 1030 610 1070" fill="none" stroke="#22c55e" stroke-width="2.5" opacity="0.7"/>
+  <path d="M 630 920 Q 635 950 640 990 Q 645 1030 650 1070" fill="none" stroke="#22c55e" stroke-width="2.5" opacity="0.7"/>
+  <path d="M 630 920 Q 628 960 625 1000 Q 622 1040 618 1070" fill="none" stroke="#22c55e" stroke-width="2" opacity="0.5"/>
+  <path d="M 630 920 Q 633 960 636 1000 Q 639 1040 642 1070" fill="none" stroke="#22c55e" stroke-width="2" opacity="0.5"/>
+  <!-- Fine root hairs (many) -->
+  <line x1="620" y1="950" x2="615" y2="955" stroke="#22c55e" stroke-width="0.5" opacity="0.6"/>
+  <line x1="625" y1="970" x2="620" y2="975" stroke="#22c55e" stroke-width="0.5" opacity="0.6"/>
+  <line x1="640" y1="960" x2="645" y2="965" stroke="#22c55e" stroke-width="0.5" opacity="0.6"/>
+  <line x1="635" y1="980" x2="640" y2="985" stroke="#22c55e" stroke-width="0.5" opacity="0.6"/>
+  <line x1="620" y1="1000" x2="615" y2="1005" stroke="#22c55e" stroke-width="0.5" opacity="0.6"/>
+  <line x1="640" y1="1010" x2="645" y2="1015" stroke="#22c55e" stroke-width="0.5" opacity="0.6"/>
+  <line x1="625" y1="1030" x2="620" y2="1035" stroke="#22c55e" stroke-width="0.5" opacity="0.6"/>
+  <line x1="635" y1="1040" x2="640" y2="1045" stroke="#22c55e" stroke-width="0.5" opacity="0.6"/>
+  <!-- Droplets -->
+  <circle cx="570" cy="960" r="1.5" fill="url(#droplet)" opacity="0.7"/>
+  <circle cx="670" cy="970" r="1.5" fill="url(#droplet)" opacity="0.7"/>
+  <circle cx="580" cy="1000" r="2" fill="url(#droplet)" opacity="0.7"/>
+  <circle cx="680" cy="1010" r="1.5" fill="url(#droplet)" opacity="0.7"/>
+  <circle cx="590" cy="1040" r="1.5" fill="url(#droplet)" opacity="0.7"/>
+  <circle cx="660" cy="1050" r="2" fill="url(#droplet)" opacity="0.7"/>
+  <!-- High O2 -->
+  <text x="630" y="1060" fill="#22c55e" font-size="10" font-weight="700" text-anchor="middle">O₂: +300% vs DWC</text>
+  <text x="630" y="1075" fill="#22c55e" font-size="10" font-weight="700" text-anchor="middle">Rot risk: NEGLIGIBLE</text>
+  <text x="630" y="1095" fill="#22c55e" font-size="9" font-weight="600" text-anchor="middle">Water: 2,100 L/kg ✓</text>
+
+  <!-- ============ PANEL E: Nutrient Formula & Growth Cycle ============ -->
+  <rect x="800" y="830" width="780" height="300" rx="8" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="800" y="830" width="780" height="32" rx="8" fill="#0d1520" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="820" y="851" fill="#1d9bf0" font-size="13" font-weight="700">FIG.5 — NUTRIENT FORMULA (Typica Variety) &amp; GROWTH CYCLE</text>
+
+  <!-- Nutrient formula table -->
+  <rect x="820" y="880" width="360" height="230" rx="6" fill="rgba(29,155,240,0.02)" stroke="#1e293b" stroke-width="1"/>
+  <text x="840" y="902" fill="#1d9bf0" font-size="11" font-weight="700">VEGETATIVE STAGE FORMULA (mg/L)</text>
+  <line x1="830" y1="910" x2="1170" y2="910" stroke="#1e293b" stroke-width="0.5"/>
+
+  <text x="840" y="928" fill="#94a3b8" font-size="11">Nitrogen (N)</text>
+  <text x="1150" y="928" fill="#1d9bf0" font-size="12" font-weight="700" text-anchor="end">210</text>
+  <line x1="830" y1="935" x2="1170" y2="935" stroke="#1e293b" stroke-width="0.3" opacity="0.4"/>
+
+  <text x="840" y="950" fill="#94a3b8" font-size="11">Phosphorus (P)</text>
+  <text x="1150" y="950" fill="#22c55e" font-size="12" font-weight="700" text-anchor="end">31</text>
+  <line x1="830" y1="957" x2="1170" y2="957" stroke="#1e293b" stroke-width="0.3" opacity="0.4"/>
+
+  <text x="840" y="972" fill="#94a3b8" font-size="11">Potassium (K)</text>
+  <text x="1150" y="972" fill="#f59e0b" font-size="12" font-weight="700" text-anchor="end">235</text>
+  <line x1="830" y1="979" x2="1170" y2="979" stroke="#1e293b" stroke-width="0.3" opacity="0.4"/>
+
+  <text x="840" y="994" fill="#94a3b8" font-size="11">Calcium (Ca)</text>
+  <text x="1150" y="994" fill="#a855f7" font-size="12" font-weight="700" text-anchor="end">180</text>
+  <line x1="830" y1="1001" x2="1170" y2="1001" stroke="#1e293b" stroke-width="0.3" opacity="0.4"/>
+
+  <text x="840" y="1016" fill="#94a3b8" font-size="11">Magnesium (Mg)</text>
+  <text x="1150" y="1016" fill="#e2e8f0" font-size="12" font-weight="700" text-anchor="end">48</text>
+  <line x1="830" y1="1023" x2="1170" y2="1023" stroke="#1e293b" stroke-width="0.3" opacity="0.4"/>
+
+  <text x="840" y="1038" fill="#94a3b8" font-size="11">Boron (B) + Zinc (Zn)</text>
+  <text x="1150" y="1038" fill="#e2e8f0" font-size="12" font-weight="600" text-anchor="end">trace</text>
+  <line x1="830" y1="1045" x2="1170" y2="1045" stroke="#1e293b" stroke-width="0.3" opacity="0.4"/>
+
+  <text x="840" y="1060" fill="#94a3b8" font-size="11">Flavonoids (coffee-specific)</text>
+  <text x="1150" y="1060" fill="#22c55e" font-size="12" font-weight="600" text-anchor="end">added</text>
+  <line x1="830" y1="1067" x2="1170" y2="1067" stroke="#1e293b" stroke-width="0.5"/>
+
+  <text x="840" y="1088" fill="#f59e0b" font-size="10" font-weight="600">→ FLOWERING STAGE:</text>
+  <text x="840" y="1100" fill="#94a3b8" font-size="9">Switch to high P/K + Molybdenum formula</text>
+
+  <!-- Growth timeline -->
+  <rect x="1200" y="880" width="360" height="230" rx="6" fill="rgba(34,197,94,0.02)" stroke="#1e293b" stroke-width="1"/>
+  <text x="1220" y="902" fill="#22c55e" font-size="11" font-weight="700">GROWTH ACCELERATION TIMELINE</text>
+  <line x1="1210" y1="910" x2="1550" y2="910" stroke="#1e293b" stroke-width="0.5"/>
+
+  <!-- Timeline bar -->
+  <rect x="1220" y="930" width="320" height="8" rx="4" fill="#0d1520" stroke="#1e293b" stroke-width="0.5"/>
+
+  <!-- Traditional bar -->
+  <rect x="1220" y="930" width="320" height="8" rx="4" fill="rgba(168,85,247,0.3)"/>
+  <text x="1220" y="955" fill="#a855f7" font-size="9" font-weight="600">Traditional: 36-48 months to harvest</text>
+
+  <!-- JEBI bar -->
+  <rect x="1220" y="975" width="89" height="8" rx="4" fill="#22c55e"/>
+  <text x="1220" y="1000" fill="#22c55e" font-size="9" font-weight="700">JEBI: 10 months to harvest (3× faster)</text>
+
+  <!-- Milestones -->
+  <text x="1220" y="1025" fill="#1d9bf0" font-size="9" font-weight="600">Month 0:</text>
+  <text x="1300" y="1025" fill="#94a3b8" font-size="9">Tissue culture → atomization transplant</text>
+
+  <text x="1220" y="1045" fill="#1d9bf0" font-size="9" font-weight="600">Month 3:</text>
+  <text x="1300" y="1045" fill="#94a3b8" font-size="9">80cm height | 1.5cm stem diameter</text>
+
+  <text x="1220" y="1065" fill="#f59e0b" font-size="9" font-weight="600">Month 7:</text>
+  <text x="1300" y="1065" fill="#94a3b8" font-size="9">7th true leaf → flowering induction trigger</text>
+
+  <text x="1220" y="1085" fill="#22c55e" font-size="9" font-weight="600">Month 10:</text>
+  <text x="1300" y="1085" fill="#94a3b8" font-size="9">First bloom | avg 23 flowering nodes/plant</text>
+
+  <text x="1220" y="1102" fill="#64748b" font-size="8">40% faster growth vs. traditional nursery</text>
+
+  <!-- ============ PANEL F: Water Efficiency & Environmental Impact ============ -->
+  <rect x="20" y="1150" width="1560" height="330" rx="8" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="20" y="1150" width="1560" height="32" rx="8" fill="#0d1520" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="40" y="1171" fill="#1d9bf0" font-size="13" font-weight="700">FIG.6 — WATER EFFICIENCY &amp; ENVIRONMENTAL IMPACT ANALYSIS</text>
+
+  <!-- Water consumption comparison -->
+  <text x="40" y="1210" fill="#94a3b8" font-size="11" font-weight="600">WATER CONSUMPTION PER KG COFFEE CHERRY</text>
+
+  <!-- Traditional -->
+  <rect x="40" y="1225" width="50" height="80" rx="2" fill="rgba(168,85,247,0.3)" stroke="#a855f7" stroke-width="1"/>
+  <text x="65" y="1220" fill="#a855f7" font-size="10" font-weight="700" text-anchor="middle">21,000</text>
+  <text x="65" y="1320" fill="#a855f7" font-size="10" text-anchor="middle">L/kg</text>
+  <text x="65" y="1335" fill="#64748b" font-size="9" text-anchor="middle">Traditional</text>
+
+  <!-- DWC -->
+  <rect x="130" y="1265" width="50" height="40" rx="2" fill="rgba(245,158,11,0.3)" stroke="#f59e0b" stroke-width="1"/>
+  <text x="155" y="1260" fill="#f59e0b" font-size="10" font-weight="700" text-anchor="middle">4,000</text>
+  <text x="155" y="1320" fill="#f59e0b" font-size="10" text-anchor="middle">L/kg</text>
+  <text x="155" y="1335" fill="#64748b" font-size="9" text-anchor="middle">DWC</text>
+
+  <!-- JEBI -->
+  <rect x="220" y="1295" width="50" height="10" rx="2" fill="#22c55e" stroke="#22c55e" stroke-width="1"/>
+  <text x="245" y="1290" fill="#22c55e" font-size="10" font-weight="700" text-anchor="middle">2,100</text>
+  <text x="245" y="1320" fill="#22c55e" font-size="10" text-anchor="middle">L/kg</text>
+  <text x="245" y="1335" fill="#64748b" font-size="9" text-anchor="middle">JEBI Aeroponic</text>
+
+  <!-- Savings callout -->
+  <rect x="330" y="1225" width="140" height="60" rx="6" fill="rgba(34,197,94,0.08)" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="400" y="1250" fill="#22c55e" font-size="20" font-weight="900" text-anchor="middle">-90%</text>
+  <text x="400" y="1270" fill="#94a3b8" font-size="9" text-anchor="middle">Water vs. Traditional</text>
+
+  <!-- Environmental metrics -->
+  <text x="520" y="1210" fill="#94a3b8" font-size="11" font-weight="600">ENVIRONMENTAL METRICS</text>
+
+  <rect x="520" y="1225" width="220" height="55" rx="4" fill="rgba(29,155,240,0.03)" stroke="#1e293b" stroke-width="1"/>
+  <text x="535" y="1245" fill="#1d9bf0" font-size="16" font-weight="800">Zero</text>
+  <text x="535" y="1265" fill="#94a3b8" font-size="10">Wastewater discharge</text>
+
+  <rect x="760" y="1225" width="220" height="55" rx="4" fill="rgba(34,197,94,0.03)" stroke="#1e293b" stroke-width="1"/>
+  <text x="775" y="1245" fill="#22c55e" font-size="16" font-weight="800">-95%</text>
+  <text x="775" y="1265" fill="#94a3b8" font-size="10">Pesticide usage</text>
+
+  <rect x="1000" y="1225" width="220" height="55" rx="4" fill="rgba(245,158,11,0.03)" stroke="#1e293b" stroke-width="1"/>
+  <text x="1015" y="1245" fill="#f59e0b" font-size="16" font-weight="800">Zero</text>
+  <text x="1015" y="1265" fill="#94a3b8" font-size="10">Herbicide usage</text>
+
+  <rect x="1240" y="1225" width="220" height="55" rx="4" fill="rgba(168,85,247,0.03)" stroke="#1e293b" stroke-width="1"/>
+  <text x="1255" y="1245" fill="#a855f7" font-size="16" font-weight="800">Carbon−</text>
+  <text x="1255" y="1265" fill="#94a3b8" font-size="10">CO₂ closed-loop capture</text>
+
+  <!-- Yield comparison -->
+  <text x="40" y="1365" fill="#94a3b8" font-size="11" font-weight="600">YIELD PER M² (kg cherry/year)</text>
+
+  <rect x="40" y="1380" width="30" height="30" rx="2" fill="rgba(168,85,247,0.3)" stroke="#a855f7" stroke-width="1"/>
+  <text x="55" y="1420" fill="#a855f7" font-size="10" font-weight="700" text-anchor="middle">0.4</text>
+  <text x="55" y="1435" fill="#64748b" font-size="9" text-anchor="middle">Traditional</text>
+
+  <rect x="130" y="1370" width="30" height="40" rx="2" fill="rgba(245,158,11,0.3)" stroke="#f59e0b" stroke-width="1"/>
+  <text x="145" y="1420" fill="#f59e0b" font-size="10" font-weight="700" text-anchor="middle">2.5</text>
+  <text x="145" y="1435" fill="#64748b" font-size="9" text-anchor="middle">Greenhouse</text>
+
+  <rect x="220" y="1330" width="30" height="80" rx="2" fill="#22c55e" stroke="#22c55e" stroke-width="1"/>
+  <text x="235" y="1420" fill="#22c55e" font-size="10" font-weight="700" text-anchor="middle">5-8</text>
+  <text x="235" y="1435" fill="#64748b" font-size="9" text-anchor="middle">JEBI (4-tier)</text>
+
+  <rect x="330" y="1375" width="140" height="40" rx="6" fill="rgba(34,197,94,0.08)" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="400" y="1395" fill="#22c55e" font-size="16" font-weight="900" text-anchor="middle">15×</text>
+  <text x="400" y="1410" fill="#94a3b8" font-size="9" text-anchor="middle">Yield vs. Traditional</text>
+
+  <!-- Key advantages summary -->
+  <rect x="520" y="1340" width="940" height="115" rx="6" fill="rgba(29,155,240,0.02)" stroke="#1e293b" stroke-width="1"/>
+  <text x="540" y="1362" fill="#1d9bf0" font-size="11" font-weight="700">SYSTEM ADVANTAGES FOR SAUDI ARABIA DEPLOYMENT</text>
+  <line x1="530" y1="1370" x2="1450" y2="1370" stroke="#1e293b" stroke-width="0.5"/>
+
+  <circle cx="545" cy="1385" r="3" fill="#22c55e"/>
+  <text x="555" y="1389" fill="#94a3b8" font-size="10">90% water reduction — critical for Saudi water scarcity (2.4 billion m³/year renewable)</text>
+
+  <circle cx="545" cy="1405" r="3" fill="#1d9bf0"/>
+  <text x="555" y="1409" fill="#94a3b8" font-size="10">Climate-independent — works in desert, no soil required, indoor controlled environment</text>
+
+  <circle cx="545" cy="1425" r="3" fill="#f59e0b"/>
+  <text x="555" y="1429" fill="#94a3b8" font-size="10">15× yield density — 48,000 m² growing area in 12,000 m² footprint (4-tier vertical racking)</text>
+
+  <circle cx="1000" cy="1385" r="3" fill="#a855f7"/>
+  <text x="1010" y="1389" fill="#94a3b8" font-size="10">10-month first harvest vs. 3-4 years traditional</text>
+
+  <circle cx="1000" cy="1405" r="3" fill="#22c55e"/>
+  <text x="1010" y="1409" fill="#94a3b8" font-size="10">Solar-compatible — pairs with Saudi 2,200+ kWh/m²/yr GHI</text>
+
+  <circle cx="1000" cy="1425" r="3" fill="#1d9bf0"/>
+  <text x="1010" y="1429" fill="#94a3b8" font-size="10">Zero discharge — no groundwater contamination risk</text>
+
+  <!-- Footer -->
+  <line x1="20" y1="1460" x2="1580" y2="1460" stroke="#1e293b" stroke-width="0.5"/>
+  <text x="40" y="1480" fill="#475569" font-size="10">Napell Biotech (Hong Kong) Ltd. | Patent CN 202611094298.6</text>
+  <text x="1560" y="1480" fill="#475569" font-size="10" text-anchor="end">Engineering Blueprint — Confidential | Page 1 of 1</text>
+  <text x="40" y="1495" fill="#475569" font-size="9">Scale: Not to scale | Units: mm / μm / mg/L / L/kg unless noted | Closed-loop system — zero discharge design</text>
+</svg>

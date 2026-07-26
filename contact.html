@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connect — PIF × NAPELL</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="logo" data-i18n="common.logo">PIF × NAPELL</a>
+  <ul class="nav-links">
+    <li class="nav-dropdown">
+      <a href="index.html" data-i18n="common.nav_summary">Summary</a>
+      <div class="dropdown-menu">
+        <a href="index.html" data-i18n="common.dd_summary_exec">Executive Summary</a>
+        <a href="index.html" data-i18n="common.dd_summary_metrics">Key Market Metrics</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="context.html" data-i18n="common.nav_context">Context</a>
+      <div class="dropdown-menu">
+        <a href="context.html" data-i18n="common.dd_context_vision">Vision 2030 Mandate</a>
+        <a href="context.html" data-i18n="common.dd_context_import">Market Import Volume</a>
+        <a href="context.html" data-i18n="common.dd_context_water">Water Scarcity Crisis</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="technology.html" data-i18n="common.nav_technology">Technology</a>
+      <div class="dropdown-menu">
+        <a href="technology.html" data-i18n="common.dd_tech_patent">Patent CN 202611094298.6</a>
+        <a href="blueprints.html" data-i18n="common.dd_tech_robotic">AI Robotic Tissue Culture</a>
+        <a href="blueprints.html" data-i18n="common.dd_tech_aeroponic">Atomization Hydroponics</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="market.html" data-i18n="common.nav_market">Market</a>
+      <div class="dropdown-menu">
+        <a href="market.html" data-i18n="common.dd_market_size">Market Size & Growth</a>
+        <a href="market.html" data-i18n="common.dd_market_sub">Import Substitution</a>
+        <a href="market.html" data-i18n="common.dd_market_charts">Growth Charts</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="proposal.html" data-i18n="common.nav_proposal">Proposal</a>
+      <div class="dropdown-menu">
+        <a href="proposal.html" data-i18n="common.dd_prop_pif">PIF Contribution</a>
+        <a href="proposal.html" data-i18n="common.dd_prop_napell">Napell Contribution</a>
+        <a href="proposal.html" data-i18n="common.dd_prop_jv">JV Structure</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="roadmap.html" data-i18n="common.nav_roadmap">Roadmap</a>
+      <div class="dropdown-menu">
+        <a href="roadmap.html" data-i18n="common.dd_road_1">Phase 1: Pilot Farm</a>
+        <a href="roadmap.html" data-i18n="common.dd_road_2">Phase 2: Commercial Scale</a>
+        <a href="roadmap.html" data-i18n="common.dd_road_3">Phase 3: National Scale</a>
+        <a href="roadmap.html" data-i18n="common.dd_road_4">Phase 4: Global Brand</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="financials.html" data-i18n="common.nav_financials">Financials</a>
+      <div class="dropdown-menu">
+        <a href="financials.html" data-i18n="common.dd_fin_invest">Investment Allocation</a>
+        <a href="financials.html" data-i18n="common.dd_fin_pl">P&L Summary</a>
+        <a href="financials.html" data-i18n="common.dd_fin_roi">ROI Metrics</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="blueprints.html" data-i18n="common.nav_blueprints">Blueprints</a>
+      <div class="dropdown-menu">
+        <a href="blueprints.html" data-i18n="common.dd_bp_robotic">Robotic Arm Blueprint</a>
+        <a href="blueprints.html" data-i18n="common.dd_bp_aeroponic">Aeroponic System Blueprint</a>
+        <a href="drawings.html" data-i18n="common.dd_drawings_system">System Architecture</a>
+        <a href="drawings.html" data-i18n="common.dd_drawings_facility">Facility Layout</a>
+      </div>
+    </li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-switcher">
+      <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中文</button>
+      <button class="lang-btn" data-lang="ar" onclick="setLang('ar')">العربية</button>
+    </div>
+    <a href="contact.html" class="nav-cta" data-i18n="common.nav_connect">Connect</a>
+  </div>
+</nav>
+<div class="page-wrapper"><section class="section">
+  <div class="section-header">
+    <div class="num" data-i18n="contact.sec_num">Next Steps</div>
+    <h2 data-i18n="contact.sec_title">Let's Build Saudi Arabia's Coffee Future</h2>
+    <p data-i18n="contact.sec_desc">We are ready to present this proposal in person and begin the due diligence process.</p>
+  </div>
+  <div class="card-grid col3" style="margin-bottom:32px">
+    <div class="card" style="border-top:3px solid var(--purple)">
+      <div class="step-num" data-i18n="contact.s1_title">Step 1</div>
+      <h3 style="color:var(--purple)" data-i18n="contact.s1_name">Initial Meeting</h3>
+      <p style="color:var(--text-secondary);font-size:14px;line-height:1.7" data-i18n="contact.s1_desc"></p>
+    </div>
+    <div class="card" style="border-top:3px solid var(--accent)">
+      <div class="step-num" data-i18n="contact.s2_title">Step 2</div>
+      <h3 style="color:var(--accent)" data-i18n="contact.s2_name">Technical Due Diligence</h3>
+      <p style="color:var(--text-secondary);font-size:14px;line-height:1.7" data-i18n="contact.s2_desc"></p>
+    </div>
+    <div class="card" style="border-top:3px solid var(--green)">
+      <div class="step-num" data-i18n="contact.s3_title">Step 3</div>
+      <h3 style="color:var(--green)" data-i18n="contact.s3_name">Term Sheet</h3>
+      <p style="color:var(--text-secondary);font-size:14px;line-height:1.7" data-i18n="contact.s3_desc"></p>
+    </div>
+  </div>
+  <div class="card" style="background:linear-gradient(135deg,rgba(29,155,240,0.08),rgba(34,197,94,0.08));border:1px solid var(--accent)">
+    <h3 style="color:var(--accent)" data-i18n="contact.contact_title">Contact Napell Biotech</h3>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <div class="contact-icon" style="color:var(--green)">&#9993;</div>
+        <div>
+          <div class="contact-label">Email</div>
+          <a href="mailto:erik.wong@napell.bio" style="color:var(--accent);text-decoration:none">erik.wong@napell.bio</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon" style="color:var(--accent)">&#9742;</div>
+        <div>
+          <div class="contact-label">WhatsApp</div>
+          <a href="https://wa.me/85293188252" style="color:var(--accent);text-decoration:none">+852 9318 8252</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon" style="color:var(--purple)">&#9742;</div>
+        <div>
+          <div class="contact-label">WeChat</div>
+          <span style="color:var(--text-primary)">+86 158 0022 2338</span>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:24px;font-size:13px;color:var(--text-muted);text-align:center" data-i18n="contact.contact_ref"></p>
+  </div>
+</section></div>
+<footer>
+  <p data-i18n="common.footer_rights">Napell Biotech (Hong Kong) Ltd. — All Rights Reserved.</p>
+  <p style="margin-top:8px" data-i18n="common.footer_patent">Patent: CN 202611094298.6 — Gas-Liquid Atomization Based Full-Cycle Planting Management Method & System</p>
+  <p style="margin-top:8px" data-i18n="common.footer_confidential">This document is confidential and intended solely for the Public Investment Fund (PIF) of the Kingdom of Saudi Arabia.</p>
+</footer>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
