@@ -47,7 +47,7 @@ var importChart, substitutionChart, projectionChart;
 // Chart data (trilingual)
 var chartLabels = {
   en: {
-    years: ['2021','2022','2023','2024','2025E','2026E','2027E','2028E','2029E','2030E'],
+    years: ['2017','2018','2019','2020','2021E','2022E','2023E','2024E','2025E','2026E'],
     volume: 'Import Volume (tons)',
     value: 'Import Value ($M)',
     substitution: 'Napell Supply (tons)',

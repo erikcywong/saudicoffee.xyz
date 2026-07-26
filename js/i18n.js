@@ -299,9 +299,9 @@ const I18N = {
       "ar": "تعد السعودية من أكبر مستهلكي القهوة في العالم — لكنها تستورد تقريباً جميع حبوب القهوة. تستورد المملكة حوالي <strong>188,000 طن</strong> من القهوة سنوياً (2024)، تنفق أكثر من <strong>400 مليون دولار</strong> بمعدل متسارع. في غضون ذلك، الموارد المائية المتجددة المحدودة في السعودية (2.4 مليار م³/سنة — من بين الأدنى عالمياً نصيب الفرد) تجعل زراعة القهوة التقليدية في الحقول المفتوحة مستحيلة بيئياً في معظم أنحاء البلاد."
     },
     "p2": {
-      "en": "<strong>Napell Biotech</strong> and <strong>Guangzhou Herang Modern Agriculture Technology</strong> have developed and patented (CN 202611094298.6) a breakthrough <strong>gas-liquid atomization full-cycle planting management system</strong>, integrated with <strong>AI-driven robotic tissue culture</strong> — a technology suite that enables coffee cultivation in controlled environments with <strong>90% less water</strong>, <strong>15× higher yield per m²</strong>, and <strong>first harvest in 10 months</strong> (vs. 3-4 years).",
-      "zh": "<strong>Napell Biotech</strong>和<strong>广州禾穰现代农业科技有限公司</strong>已开发并申请专利（CN 202611094298.6）突破性的<strong>气液式雾化全周期种植管理系统</strong>，集成<strong>AI驱动的机器人组培技术</strong>——一套技术体系，可在受控环境中种植咖啡，<strong>节水90%</strong>、<strong>每平方米产量提高15倍</strong>、<strong>10个月内首次收获</strong>（对比传统3-4年）。",
-      "ar": "قامت <strong>Napell Biotech</strong> و<strong>شركة قوانغتشو هيرانغ للتقنية الزراعية الحديثة</strong> بتطوير وتسجيل براءة اختراع (CN 202611094298.6) لـ<strong>نظام إدارة الزراعة طوال الدورة بالضبوب بالغاز والسائل</strong>، متكامل مع <strong>زراعة الأنسجة بالروبوت المدعوم بالذكاء الاصطناعي</strong> — مجموعة تقنية تتيح زراعة القهوة في بيئات محكومة بـ<strong>90% مياه أقل</strong>، <strong>إنتاجية أعلى 15 مرة لكل م²</strong>، و<strong>أول حصاد في 10 أشهر</strong> (مقابل 3-4 سنوات)."
+      "en": "<strong>Napell Biotech</strong> and <strong>Guangzhou Herang Modern Agriculture Technology</strong> have developed and patented (CN 202611094298.6) a breakthrough <strong>gas-liquid atomization full-cycle planting management system</strong>, integrated with <strong>AI-driven robotic tissue culture</strong> — a technology suite that enables coffee cultivation in controlled environments with <strong>90% less water</strong>, <strong>15× higher yield per m²</strong>, and <strong>first harvest in 12-14 months</strong> (vs. 3-4 years).",
+      "zh": "<strong>Napell Biotech</strong>和<strong>广州禾穰现代农业科技有限公司</strong>已开发并申请专利（CN 202611094298.6）突破性的<strong>气液式雾化全周期种植管理系统</strong>，集成<strong>AI驱动的机器人组培技术</strong>——一套技术体系，可在受控环境中种植咖啡，<strong>节水90%</strong>、<strong>每平方米产量提高15倍</strong>、<strong>12-14个月内首次收获</strong>（对比传统3-4年）。",
+      "ar": "قامت <strong>Napell Biotech</strong> و<strong>شركة قوانغتشو هيرانغ للتقنية الزراعية الحديثة</strong> بتطوير وتسجيل براءة اختراع (CN 202611094298.6) لـ<strong>نظام إدارة الزراعة طوال الدورة بالضبوب بالغاز والسائل</strong>، متكامل مع <strong>زراعة الأنسجة بالروبوت المدعوم بالذكاء الاصطناعي</strong> — مجموعة تقنية تتيح زراعة القهوة في بيئات محكومة بـ<strong>90% مياه أقل</strong>، <strong>إنتاجية أعلى 15 مرة لكل م²</strong>، و<strong>أول حصاد في 14-12 شهر</strong> (مقابل 3-4 سنوات)."
     },
     "p3": {
       "en": "This proposal outlines a <strong>$200-250M joint venture</strong> for PIF to establish, in partnership with Napell, a sovereign coffee industry chain — from AI-propelled tissue culture labs to vertical atomization farms to processing, roasting, and \"Saudi Origin\" branded retail — fully aligned with Vision 2030's food security, economic diversification, and technology transfer mandates. The JV targets <strong>5-8% import substitution by Year 7</strong> and <strong>15% by Year 10</strong>, generating <strong>$86-139M annual revenue</strong> by Year 5.",
@@ -478,9 +478,9 @@ const I18N = {
       "ar": "تركيبات مغذية مخصصة لكل صنف: N:210, P:31, K:235, Ca:180, Mg:48 ملغم/لتر (تيبيكا)"
     },
     "s2_li4": {
-      "en": "Flowering induction: P/K boost + short-day + 16-18°C nights → first bloom at 8-10 months",
-      "zh": "开花诱导：磷钾提升+短日照+16-18°C夜间 → 8-10个月首次开花",
-      "ar": "تحفيز الإزهار: تعزيز P/K + يوم قصير + ليالي 16-18°م → أول تفتح في 8-10 أشهر"
+      "en": "Flowering induction: P/K boost + short-day + 16-18°C nights → first bloom at 12-14 months",
+      "zh": "开花诱导：磷钾提升+短日照+16-18°C夜间 → 12-14个月首次开花",
+      "ar": "تحفيز الإزهار: تعزيز P/K + يوم قصير + ليالي 16-18°م → أول تفتح في 14-12 شهر"
     },
     "s2_li5": {
       "en": "15 sec spray / 3 min pause cycle, midnight rest period",
@@ -513,9 +513,9 @@ const I18N = {
       "ar": "5-8 كجم كرز/م²/سنة مقابل 0.4 كجم في الحقل المفتوح"
     },
     "metric2_val": {
-      "en": "10 mo",
-      "zh": "10个月",
-      "ar": "10 شهر"
+      "en": "12-14 mo",
+      "zh": "12-14个月",
+      "ar": "14-12 شهر"
     },
     "metric2_lbl": {
       "en": "First Harvest",
@@ -1267,9 +1267,9 @@ const I18N = {
       "ar": "نظام الزراعة الضبابية بالغاز والسائل — مبدأ زراعة القهوة الضبابية"
     },
     "bp2_desc": {
-      "en": "This blueprint illustrates the patented gas-liquid atomization system: ultrasonic 1.7MHz atomizers generating 5-30μm nutrient mist, 300% more root oxygenation than deep-water hydroponics, closed-loop 90% water recovery, custom nutrient formulas per variety, gradient seedling hardening, and flowering induction achieving first harvest in 10 months — using only 2,100 L/kg water (vs. 21,000 L traditional).",
-      "zh": "本蓝图展示了专利气液式雾化系统：超声波1.7MHz雾化器产生5-30μm营养雾滴，根系供氧量比深液流水培高300%，闭环水回收率90%，按品种定制营养液配方，梯度炼苗，以及开花诱导技术——10个月内首次收获，每公斤仅耗水2,100L（传统种植需21,000L）。",
-      "ar": "يوضح هذا المخطط نظام الضبوب المسجل: مرذاذات فوق صوتية بتردد 1.7 ميجاهرتز تنتج قطرات ضباب مغذية 5-30 ميكرومتر، أكسجين جذور أعلى بنسبة 300% من الزراعة المائية العميقة، استرجاع مياه 90% في دورة مغلقة، تركيبات مغذية مخصصة لكل صنف، تقسية الشتلات المتدرجة، وتحفيز الإزهار المحقق لأول حصاد في 10 أشهر — باستخدام 2,100 لتر/كجم فقط (مقارنة بـ 21,000 لتر للزراعة التقليدية)."
+      "en": "This blueprint illustrates the patented gas-liquid atomization system: ultrasonic 1.7MHz atomizers generating 5-30μm nutrient mist, 300% more root oxygenation than deep-water hydroponics, closed-loop 90% water recovery, custom nutrient formulas per variety, gradient seedling hardening, and flowering induction achieving first harvest in 12-14 months — using only 2,100 L/kg water (vs. 21,000 L traditional).",
+      "zh": "本蓝图展示了专利气液式雾化系统：超声波1.7MHz雾化器产生5-30μm营养雾滴，根系供氧量比深液流水培高300%，闭环水回收率90%，按品种定制营养液配方，梯度炼苗，以及开花诱导技术——12-14个月内首次收获，每公斤仅耗水2,100L（传统种植需21,000L）。",
+      "ar": "يوضح هذا المخطط نظام الضبوب المسجل: مرذاذات فوق صوتية بتردد 1.7 ميجاهرتز تنتج قطرات ضباب مغذية 5-30 ميكرومتر، أكسجين جذور أعلى بنسبة 300% من الزراعة المائية العميقة، استرجاع مياه 90% في دورة مغلقة، تركيبات مغذية مخصصة لكل صنف، تقسية الشتلات المتدرجة، وتحفيز الإزهار المحقق لأول حصاد في 14-12 شهر — باستخدام 2,100 لتر/كجم فقط (مقارنة بـ 21,000 لتر للزراعة التقليدية)."
     },
     "bp2_caption": {
       "en": "FIG.1 Chamber Cross-Section | FIG.2 Ultrasonic Atomizer Detail | FIG.3 Closed-Loop Circulation | FIG.4 Root Oxygenation Comparison | FIG.5 Nutrient Formula & Growth Cycle | FIG.6 Water Efficiency Analysis",

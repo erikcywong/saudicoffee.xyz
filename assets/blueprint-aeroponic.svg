@@ -495,7 +495,7 @@
 
   <!-- JEBI bar -->
   <rect x="1220" y="975" width="89" height="8" rx="4" fill="#22c55e"/>
-  <text x="1220" y="1000" fill="#22c55e" font-size="9" font-weight="700">JEBI: 10 months to harvest (3× faster)</text>
+  <text x="1220" y="1000" fill="#22c55e" font-size="9" font-weight="700">JEBI: 12-14 months to harvest (3× faster)</text>
 
   <!-- Milestones -->
   <text x="1220" y="1025" fill="#1d9bf0" font-size="9" font-weight="600">Month 0:</text>
@@ -596,7 +596,7 @@
   <text x="555" y="1429" fill="#94a3b8" font-size="10">15× yield density — 48,000 m² growing area in 12,000 m² footprint (4-tier vertical racking)</text>
 
   <circle cx="1000" cy="1385" r="3" fill="#a855f7"/>
-  <text x="1010" y="1389" fill="#94a3b8" font-size="10">10-month first harvest vs. 3-4 years traditional</text>
+  <text x="1010" y="1389" fill="#94a3b8" font-size="10">12-14 month first harvest vs. 3-4 years traditional</text>
 
   <circle cx="1000" cy="1405" r="3" fill="#22c55e"/>
   <text x="1010" y="1409" fill="#94a3b8" font-size="10">Solar-compatible — pairs with Saudi 2,200+ kWh/m²/yr GHI</text>

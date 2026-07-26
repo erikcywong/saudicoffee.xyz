@@ -176,7 +176,7 @@
   <text x="1418" y="693" fill="#22c55e" font-size="13" font-weight="600">Growth Speed: +40%  vs nursery</text>
 
   <rect x="1405" y="715" width="290" height="35" rx="4" fill="#0a3622" fill-opacity="0.3"/>
-  <text x="1418" y="738" fill="#22c55e" font-size="13" font-weight="600">First Harvest: 10 months  vs 3 yr</text>
+  <text x="1418" y="738" fill="#22c55e" font-size="13" font-weight="600">First Harvest: 12-14 months  vs 3 yr</text>
 
   <rect x="1405" y="760" width="290" height="35" rx="4" fill="#0a3622" fill-opacity="0.3"/>
   <text x="1418" y="783" fill="#22c55e" font-size="13" font-weight="600">Yield: 5-8 kg/m²/yr  vs 0.4 kg</text>
@@ -364,7 +364,7 @@
   <text x="530" y="2255" fill="#94a3b8" font-size="13">• Ultrasonic 5-30μm mist</text>
   <text x="530" y="2280" fill="#94a3b8" font-size="13">• Water: 10% of traditional</text>
   <text x="530" y="2305" fill="#94a3b8" font-size="13">• Growth: 6mo → 80cm tree</text>
-  <text x="530" y="2330" fill="#94a3b8" font-size="13">• 1st harvest: 10 months</text>
+  <text x="530" y="2330" fill="#94a3b8" font-size="13">• 1st harvest: 12-14 months</text>
   <text x="530" y="2355" fill="#94a3b8" font-size="13">• Yield: 5-8 kg cherry/m²/yr</text>
   <line x1="530" y1="2380" x2="820" y2="2380" stroke="#1d9bf0" stroke-width="1" stroke-opacity="0.3"/>
   <text x="530" y="2405" fill="#64748b" font-size="12">Location: Zones 2A-B</text>
