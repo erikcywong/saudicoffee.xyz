@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Brief — PIF × NAPELL</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="logo" data-i18n="common.logo">PIF × NAPELL</a>
+  <ul class="nav-links">
+    <li class="nav-dropdown">
+      <a href="index.html" data-i18n="common.nav_summary">Summary</a>
+      <div class="dropdown-menu">
+        <a href="index.html" data-i18n="common.dd_summary_exec">Executive Summary</a>
+        <a href="index.html" data-i18n="common.dd_summary_metrics">Key Market Metrics</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="context.html" data-i18n="common.nav_context">Context</a>
+      <div class="dropdown-menu">
+        <a href="context.html" data-i18n="common.dd_context_vision">Vision 2030 Mandate</a>
+        <a href="context.html" data-i18n="common.dd_context_import">Market Import Volume</a>
+        <a href="context.html" data-i18n="common.dd_context_water">Water Scarcity Crisis</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="technology.html" data-i18n="common.nav_technology">Technology</a>
+      <div class="dropdown-menu">
+        <a href="technology.html" data-i18n="common.dd_tech_patent">Patent CN 202611094298.6</a>
+        <a href="blueprints.html" data-i18n="common.dd_tech_robotic">AI Robotic Tissue Culture</a>
+        <a href="blueprints.html" data-i18n="common.dd_tech_aeroponic">Atomization Hydroponics</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="market.html" data-i18n="common.nav_market">Market</a>
+      <div class="dropdown-menu">
+        <a href="market.html" data-i18n="common.dd_market_size">Market Size &amp; Growth</a>
+        <a href="market.html" data-i18n="common.dd_market_sub">Import Substitution</a>
+        <a href="market.html" data-i18n="common.dd_market_charts">Growth Charts</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="proposal.html" data-i18n="common.nav_proposal">Proposal</a>
+      <div class="dropdown-menu">
+        <a href="proposal.html" data-i18n="common.dd_prop_pif">PIF Contribution</a>
+        <a href="proposal.html" data-i18n="common.dd_prop_napell">Napell Contribution</a>
+        <a href="proposal.html" data-i18n="common.dd_prop_jv">JV Structure</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="roadmap.html" data-i18n="common.nav_roadmap">Roadmap</a>
+      <div class="dropdown-menu">
+        <a href="roadmap.html" data-i18n="common.dd_road_1">Phase 1: Pilot Farm</a>
+        <a href="roadmap.html" data-i18n="common.dd_road_2">Phase 2: Commercial Scale</a>
+        <a href="roadmap.html" data-i18n="common.dd_road_3">Phase 3: National Scale</a>
+        <a href="roadmap.html" data-i18n="common.dd_road_4">Phase 4: Global Brand</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="financials.html" data-i18n="common.nav_financials">Financials</a>
+      <div class="dropdown-menu">
+        <a href="financials.html" data-i18n="common.dd_fin_invest">Investment Allocation</a>
+        <a href="financials.html" data-i18n="common.dd_fin_pl">P&amp;L Summary</a>
+        <a href="financials.html" data-i18n="common.dd_fin_roi">ROI Metrics</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="risks.html" data-i18n="common.nav_risks">Risks</a>
+    </li>
+    <li class="nav-dropdown">
+      <a href="alignment.html" data-i18n="common.nav_alignment">Alignment</a>
+    </li>
+    <li class="nav-dropdown">
+      <a href="video.html" data-i18n="common.nav_video">Video Brief</a>
+      <div class="dropdown-menu">
+        <a href="video.html" data-i18n="common.dd_video_crisis">El Niño 2026 Coffee Crisis</a>
+        <a href="video.html" data-i18n="common.dd_video_solution">Aeroponic Solution</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
+      <a href="blueprints.html" data-i18n="common.nav_blueprints">Blueprints</a>
+      <div class="dropdown-menu">
+        <a href="blueprints.html" data-i18n="common.dd_bp_robotic">Robotic Arm Blueprint</a>
+        <a href="blueprints.html" data-i18n="common.dd_bp_aeroponic">Aeroponic System Blueprint</a>
+        <a href="drawings.html" data-i18n="common.dd_drawings_system">System Architecture</a>
+        <a href="drawings.html" data-i18n="common.dd_drawings_facility">Facility Layout</a>
+      </div>
+    </li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-switcher">
+      <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中文</button>
+      <button class="lang-btn" data-lang="ar" onclick="setLang('ar')">العربية</button>
+    </div>
+    <a href="contact.html" class="nav-cta" data-i18n="common.nav_connect">Connect</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Menu" onclick="toggleMobileMenu()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html" data-i18n="common.nav_summary">Summary</a>
+  <a href="context.html" data-i18n="common.nav_context">Context</a>
+  <a href="technology.html" data-i18n="common.nav_technology">Technology</a>
+  <a href="market.html" data-i18n="common.nav_market">Market</a>
+  <a href="proposal.html" data-i18n="common.nav_proposal">Proposal</a>
+  <a href="roadmap.html" data-i18n="common.nav_roadmap">Roadmap</a>
+  <a href="financials.html" data-i18n="common.nav_financials">Financials</a>
+  <a href="risks.html" data-i18n="common.nav_risks">Risks</a>
+  <a href="alignment.html" data-i18n="common.nav_alignment">Alignment</a>
+  <a href="blueprints.html" data-i18n="common.nav_blueprints">Blueprints</a>
+  <a href="drawings.html" data-i18n="common.nav_drawings">Drawings</a>
+  <a href="video.html" data-i18n="common.nav_video">Video Brief</a>
+  <a href="contact.html" class="mobile-cta" data-i18n="common.nav_connect">Connect</a>
+  <div class="mobile-lang-switcher">
+    <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中文</button>
+    <button class="lang-btn" data-lang="ar" onclick="setLang('ar')">العربية</button>
+  </div>
+</div>
+<div class="mobile-overlay" id="mobileOverlay" onclick="toggleMobileMenu()"></div>
+<div class="page-wrapper"><section class="section">
+  <div class="section-header">
+    <div class="num" data-i18n="video.sec_num">Section 12</div>
+    <h2 data-i18n="video.sec_title">Video Brief — El Niño 2026 &amp; the Aeroponic Answer</h2>
+    <p data-i18n="video.sec_desc">A 68-second climate intelligence briefing produced by Napell BIO — connecting the global El Niño 2026 crisis to the aeroponic solution and the Saudi opportunity.</p>
+  </div>
+
+  <!-- Video Player -->
+  <div style="max-width:960px;margin:0 auto 40px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden">
+    <video controls playsinline preload="metadata" style="width:100%;display:block;background:#000" poster="assets/coffee-aeroponic-napellbio.mp4">
+      <source src="assets/coffee-aeroponic-napellbio.mp4" type="video/mp4">
+      <p data-i18n="video.no_video_warning">Your browser does not support embedded video. Download it instead:</p>
+    </video>
+    <div style="padding:16px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
+      <div>
+        <div style="font-weight:700;font-size:15px;color:var(--text-primary)" data-i18n="video.video_label">Watch Briefing</div>
+        <div style="font-size:12px;color:var(--text-muted);margin-top:2px" data-i18n="video.video_sublabel">68 seconds · 1080p · Mandarin narration with on-screen text in EN/中文/العربية</div>
+      </div>
+      <a href="assets/coffee-aeroponic-napellbio.mp4" download class="nav-cta" style="font-size:13px" data-i18n="video.download_btn">Download MP4 (8.2 MB)</a>
+    </div>
+  </div>
+
+  <!-- Analysis -->
+  <div style="max-width:960px;margin:0 auto">
+    <h3 style="font-size:24px;margin-bottom:12px" data-i18n="video.analysis_title">Why This Video Matters to the Saudi Coffee Chain</h3>
+    <p style="font-size:15px;color:var(--text-secondary);margin-bottom:40px;line-height:1.8" data-i18n="video.analysis_intro">This briefing distills the strategic case in 68 seconds. It is a market-reality video — not a product demo — designed to anchor the conversation between Napell and PIF in three layers of evidence:</p>
+
+    <!-- Layer 1 -->
+    <div class="card" style="margin-bottom:24px;border-left:3px solid var(--accent)">
+      <h4 style="font-size:17px;margin-bottom:12px;color:var(--accent)" data-i18n="video.layer1_title">Layer 1 — The Threat is Real, Quantified, and Accelerating</h4>
+      <p style="font-size:14px;color:var(--text-secondary);line-height:1.9" data-i18n="video.layer1_text">Using data sourced from the International Coffee Organization (ICO), World Coffee Research, and NOAA's 2026 climate forecast, the video quantifies the 2026 El Niño impact: +2.8°C mean temperature increase, –38% rainfall deficit, and 24% loss of coffee planting area. Global production is projected to fall 37% (from 98M bags in 2022 to 62M in 2026P), while Arabica futures prices are projected to surge 293% (from $1.22/lb in 2020 to $4.80 in 2026P). Four flagship origins — Brazil, Colombia, Vietnam, Ethiopia — are shown to be at severe-to-extreme risk. The video further cites ICO's projection that <strong>50% of global coffee arable land will disappear by 2050</strong>, directly threatening 120 million livelihoods.</p>
+    </div>
+
+    <!-- Layer 2 -->
+    <div class="card" style="margin-bottom:24px;border-left:3px solid var(--purple)">
+      <h4 style="font-size:17px;margin-bottom:12px;color:var(--purple)" data-i18n="video.layer2_title">Layer 2 — Traditional Soil Cultivation Cannot Survive This</h4>
+      <p style="font-size:14px;color:var(--text-secondary);line-height:1.9" data-i18n="video.layer2_text">The video identifies three systemic vulnerabilities that traditional soil farming cannot mitigate: (1) <strong>Climate fragility</strong> — coffee requires 1,500–2,000mm stable rainfall and 18–24°C temperatures; El Niño breaks both, triggering a 65% surge in crop pests/diseases. (2) <strong>Water waste &amp; soil degradation</strong> — soil-grown coffee consumes up to 140 liters of water per cup and loses 35% of topsoil per decade. (3) <strong>Pest outbreak pressure</strong> — coffee leaf rust and coffee berry borer spread 55% faster under El Niño conditions, with soil farms having no isolation barrier, causing up to 50% yield losses and $340/ha extra pesticide cost.</p>
+    </div>
+
+    <!-- Layer 3 -->
+    <div class="card" style="margin-bottom:40px;border-left:3px solid var(--accent)">
+      <h4 style="font-size:17px;margin-bottom:12px;color:var(--accent)" data-i18n="video.layer3_title">Layer 3 — Aeroponics is the Only Defensible Answer</h4>
+      <p style="font-size:14px;color:var(--text-secondary);line-height:1.9" data-i18n="video.layer3_text">The video closes with Napell BIO's aeroponic system delivering three structural wins: <strong>95% water reduction</strong> vs soil (root misting has no runoff), <strong>365-day uninterrupted production</strong> in fully climate-controlled 20–22°C vertical towers with 1,600 lux lighting, and <strong>3× growth speed</strong> via oxygen-rich nutrient mist that accelerates mineral uptake. The harvest cycle drops from 4 years to 12–14 months. This is precisely why Saudi Arabia — with its 2.4B m³ renewable water ceiling and Vision 2030 food-security mandate — is the highest-leverage geography in the world for this technology.</p>
+    </div>
+
+    <!-- Investment Implications -->
+    <h3 style="font-size:22px;margin-bottom:20px" data-i18n="video.inv_title">Implications for the Saudi Arabia Investment Thesis</h3>
+    <div class="card-grid col3" style="margin-bottom:40px">
+      <div class="card"><p style="font-size:14px;color:var(--text-secondary);line-height:1.9" data-i18n="video.inv1">Time compression — Saudi cannot wait 25 years for traditional farms to be retrofitted. The El Niño crisis is <strong>now</strong>. Aeroponics is the only path to sovereign coffee security in this decade.</p></div>
+      <div class="card"><p style="font-size:14px;color:var(--text-secondary);line-height:1.9" data-i18n="video.inv2">Price tailwind — at projected $4.80/lb Arabica and tightening supply, every ton Napell produces in Saudi is sold into a structural bull market, accelerating the JV's path to breakeven.</p></div>
+      <div class="card"><p style="font-size:14px;color:var(--text-secondary);line-height:1.9" data-i18n="video.inv3">Strategic optionality — PIF's investment de-risks Vision 2030's food-security pillar while capturing a defensible position in the global indoor-coffee technology stack that no other Gulf sovereign is positioned to take.</p></div>
+    </div>
+
+    <!-- Transcript -->
+    <h3 style="font-size:22px;margin-bottom:20px" data-i18n="video.transcript_title">On-screen Text &amp; Data (Key Frames)</h3>
+    <div style="display:flex;flex-direction:column;gap:16px;margin-bottom:40px">
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">0–5s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t0_5">Opening — Napell BIO logo + tagline: <em>"Growing the future, today"</em></p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~10s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t10">Title — <em>"EL NIÑO 2026 → COFFEE CRISIS"</em>. Subtitle in English: <em>"How the world's most extreme El Niño threatens global coffee supply, and the aeroponic technology changing everything"</em>.</p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~15s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t15">Section — <em>"Top coffee origins face severe threats"</em>: Brazil 88% risk, Colombia 74%, Vietnam 92%, Ethiopia 68%. Headline stats: +2.8°C, –38% rainfall, 24% planting area lost.</p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~25s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t25">Section — <em>"Supply shock &amp; price surge"</em>: Global production –37% (98M → 62M bags, 2022 → 2026P); Arabica futures +293% ($1.22 → $4.80/lb, 2020 → 2026P). Source: ICO + WCR + NOAA.</p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~35s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t35">Section — <em>"Coffee arable land will shrink 50% by 2050"</em>. Source: ICO.</p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~40s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t40">Section — <em>"3 systemic vulnerabilities"</em>: ① Climate fragility (1,500–2,000mm rain &amp; 18–24°C required; +65% pest surge). ② Water waste &amp; soil degradation (140L water per cup; 35% topsoil loss/decade). ③ Pest outbreak pressure (+55% leaf rust; +$340/ha pesticide cost; up to 50% yield loss).</p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~55s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t55">Section — <em>"Aeroponic Coffee Cultivation System"</em>: 95% water saving, 365-day uninterrupted production, 3× growth speed, harvest cycle 4 yr → 12–14 mo.</p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~65s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t65">Closing — Napell BIO + <em>"Growing the future, today"</em>. Two closing messages: (1) 2026 Super El Niño is disrupting the global coffee supply chain. (2) Traditional soil cultivation cannot withstand extreme climate shocks.</p></div>
+    </div>
+
+    <!-- How to Use This Video -->
+    <h3 style="font-size:22px;margin-bottom:20px" data-i18n="video.use_title">How to Use This Video with PIF</h3>
+    <div style="display:flex;flex-direction:column;gap:16px;margin-bottom:20px">
+      <div class="card" style="padding:16px 20px;display:flex;align-items:flex-start;gap:14px">
+        <span style="font-size:18px;flex-shrink:0;margin-top:2px">1.</span>
+        <p style="font-size:14px;color:var(--text-secondary);line-height:1.7;margin:0" data-i18n="video.use1"><strong>Open the meeting</strong> with the 68-second briefing — it sets the urgency frame in under two minutes and reaches the C-suite without a slide deck.</p>
+      </div>
+      <div class="card" style="padding:16px 20px;display:flex;align-items:flex-start;gap:14px">
+        <span style="font-size:18px;flex-shrink:0;margin-top:2px">2.</span>
+        <p style="font-size:14px;color:var(--text-secondary);line-height:1.7;margin:0" data-i18n="video.use2"><strong>Anchor the data</strong> by linking to the source citations (ICO, NOAA, WCR) shown in the closing frames — PIF analysts can verify independently.</p>
+      </div>
+      <div class="card" style="padding:16px 20px;display:flex;align-items:flex-start;gap:14px">
+        <span style="font-size:18px;flex-shrink:0;margin-top:2px">3.</span>
+        <p style="font-size:14px;color:var(--text-secondary);line-height:1.7;margin:0" data-i18n="video.use3"><strong>Hand off</strong> to Section 04 (Market) and Section 02 (Context) of this proposal for the full financial and strategic depth — the video is the hook, the proposal is the close.</p>
+      </div>
+    </div>
+  </div>
+</section></div>
+<footer>
+  <p data-i18n="common.footer_rights">Napell Biotech (Hong Kong) Ltd. — All Rights Reserved.</p>
+  <p style="margin-top:8px" data-i18n="common.footer_patent">Patent: CN 202611094298.6 — Gas-Liquid Atomization Based Full-Cycle Planting Management Method & System</p>
+  <p style="margin-top:8px" data-i18n="common.footer_confidential">This document is confidential and intended solely for the Public Investment Fund (PIF) of the Kingdom of Saudi Arabia.</p>
+</footer>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

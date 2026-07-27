@@ -21,6 +21,7 @@ T = {
     "nav_alignment": {"en": "Alignment", "zh": "战略对齐", "ar": "التوافق"},
     "nav_blueprints": {"en": "Blueprints", "zh": "蓝图", "ar": "المخططات"},
     "nav_drawings": {"en": "Drawings", "zh": "图纸", "ar": "الرسومات"},
+    "nav_video": {"en": "Video Brief", "zh": "视频简报", "ar": "فيديو توضيحي"},
     "nav_connect": {"en": "Connect", "zh": "联系", "ar": "تواصل"},
     # Dropdowns
     "dd_summary_exec": {"en": "Executive Summary", "zh": "执行摘要", "ar": "الملخص التنفيذي"},
@@ -48,6 +49,8 @@ T = {
     "dd_bp_aeroponic": {"en": "Aeroponic System Blueprint", "zh": "雾化系统蓝图", "ar": "مخطط نظام الضبوب"},
     "dd_drawings_system": {"en": "System Architecture", "zh": "系统架构", "ar": "بنية النظام"},
     "dd_drawings_facility": {"en": "Facility Layout", "zh": "设施布局", "ar": "تخطيط المنشأة"},
+    "dd_video_crisis": {"en": "El Niño 2026 Coffee Crisis", "zh": "2026厄尔尼诺咖啡危机", "ar": "أزمة قهوة إلنينو 2026"},
+    "dd_video_solution": {"en": "Aeroponic Solution", "zh": "气雾栽培解决方案", "ar": "حل الضبوب"},
     # Footer
     "footer_rights": {"en": "Napell Biotech (Hong Kong) Ltd. — All Rights Reserved.", "zh": "Napell Biotech (Hong Kong) Ltd. — 版权所有。", "ar": "Napell Biotech (Hong Kong) Ltd. — جميع الحقوق محفوظة."},
     "footer_patent": {"en": "Patent: CN 202611094298.6 — Gas-Liquid Atomization Based Full-Cycle Planting Management Method & System", "zh": "专利: CN 202611094298.6 — 基于气液式雾化的全周期种植管理方法及系统", "ar": "براءة الاختراع: CN 202611094298.6 — طريقة ونظام إدارة الزراعة طوال الدورة بناءً على الضبوب بالغاز والسائل"},
@@ -306,6 +309,41 @@ T = {
     "notes_text": {"en": "The above engineering drawings illustrate the complete system architecture for Saudi deployment. <strong>Diagram 1</strong> shows the three-layer technology stack: AI robotic tissue culture (Layer 1), gas-liquid atomization hydroponic system (Layer 2, the patented core), and closed-loop water/nutrient circuit. <strong>Diagram 2</strong> provides the facility layout for a 50,000 m² controlled-environment farm — four zones with 4-level vertical stacking achieving 48,000 m² effective growing area. <strong>Diagram 3</strong> maps the full value chain from genetic bank to retail. <strong>Diagram 5</strong> demonstrates the critical water efficiency advantage (2,100 L/kg vs 21,000 L/kg) that makes this technology uniquely viable for Saudi Arabia's water-scarce environment.", "zh": "以上工程图纸展示了沙特部署的完整系统架构。<strong>图1</strong>展示三层技术堆栈：AI机器人组培（第一层）、气液式雾化水培系统（第二层，专利核心）和闭环水/营养液回路。<strong>图2</strong>提供50,000 m²受控环境农场的设施布局——四区四层垂直堆叠，实现48,000 m²有效种植面积。<strong>图3</strong>绘制从基因库到零售的完整价值链。<strong>图5</strong>展示关键水效率优势（2,100升/公斤 vs 21,000升/公斤），使该技术独特地适用于沙特水资源稀缺环境。", "ar": "توضح الرسومات الهندسية أعلاه بنية النظام الكامل للنشر السعودي. <strong>الرسم 1</strong> يعرض مكدس التقنية ثلاثي الطبقات: زراعة الأنسجة بالروبوت الذكي (الطبقة 1)، نظام الزراعة المائية الضبابية (الطبقة 2، النواة المسجلة)، ودائرة المياه/المغذيات المغلقة. <strong>الرسم 2</strong> يوفر تخطيط المنشأة لمزرعة بيئة محكومة 50,000 م² — أربع مناطق برصف عمودي 4 مستويات محققاً 48,000 م² مساحة زراعة فعالة. <strong>الرسم 3</strong> يرسم سلسلة القيمة الكاملة من البنك الجيني إلى التجزئة. <strong>الرسم 5</strong> يوضح ميزة كفاءة المياه الحرجة (2,100 لتر/كجم مقابل 21,000 لتر/كجم) التي تجعل هذه التقنية قابلة للتطبيق بشكل فريد في بيئة السعودية المحدودة المياه."},
   },
 
+  "video": {
+    "sec_num": {"en": "Section 12", "zh": "第 12 节", "ar": "القسم 12"},
+    "sec_title": {"en": "Video Brief — El Niño 2026 &amp; the Aeroponic Answer", "zh": "视频简报 — 2026 厄尔尼诺与气雾栽培答案", "ar": "فيديو توضيحي — إلنينو 2026 وجواب الضبوب"},
+    "sec_desc": {"en": "A 68-second climate intelligence briefing produced by Napell BIO — connecting the global El Niño 2026 crisis to the aeroponic solution and the Saudi opportunity.", "zh": "Napell BIO 出品的 68 秒气候情报简报，将全球 2026 厄尔尼诺危机与气雾栽培解决方案及沙特机遇串联。", "ar": "موجز استخبارات مناخي مدته 68 ثانية أنتجته Napell BIO — يربط أزمة إلنينو 2026 العالمية بحلول الضبوب وفرصة السعودية."},
+    "video_label": {"en": "Watch Briefing", "zh": "观看简报", "ar": "شاهد الموجز"},
+    "video_sublabel": {"en": "68 seconds · 1080p · Mandarin narration with on-screen text in EN/中文/العربية", "zh": "68 秒 · 1080p · 中文解说配 EN/中文/العربية 三语字幕", "ar": "68 ثانية · 1080 بكسل · سرد صيني مع نص على الشاشة بـ EN/中文/العربية"},
+    "no_video_warning": {"en": "Your browser does not support embedded video. Download it instead:", "zh": "您的浏览器不支持嵌入视频。请改用下载链接：", "ar": "متصفحك لا يدعم الفيديو المضمّن. حمّله بدلاً من ذلك:"},
+    "download_btn": {"en": "Download MP4 (8.2 MB)", "zh": "下载 MP4 (8.2 MB)", "ar": "تحميل MP4 (8.2 ميجابايت)"},
+    "analysis_title": {"en": "Why This Video Matters to the Saudi Coffee Chain", "zh": "为什么这段视频对沙特咖啡链至关重要", "ar": "لماذا هذا الفيديو مهم لسلسلة القهوة السعودية"},
+    "analysis_intro": {"en": "This briefing distills the strategic case in 68 seconds. It is a market-reality video — not a product demo — designed to anchor the conversation between Napell and PIF in three layers of evidence:", "zh": "这段简报在 68 秒内浓缩了整个战略论证。它不是产品演示，而是一段\"市场现实\"视频，旨在为 Napell 与 PIF 的对话锚定三层证据：", "ar": "يلخص هذا الموجز القضية الاستراتيجية في 68 ثانية. إنه فيديو واقع السوق — وليس عرض منتج — مصمم لتأسيس المحادثة بين Napell وصندوق PIF على ثلاث طبقات من الأدلة:"},
+    "layer1_title": {"en": "Layer 1 — The Threat is Real, Quantified, and Accelerating", "zh": "第一层 — 威胁是真实、量化且加速的", "ar": "الطبقة 1 — التهديد حقيقي ومحدد كمياً ومتسارع"},
+    "layer1_text": {"en": "Using data sourced from the International Coffee Organization (ICO), World Coffee Research, and NOAA's 2026 climate forecast, the video quantifies the 2026 El Niño impact: +2.8°C mean temperature increase, –38% rainfall deficit, and 24% loss of coffee planting area. Global production is projected to fall 37% (from 98M bags in 2022 to 62M in 2026P), while Arabica futures prices are projected to surge 293% (from $1.22/lb in 2020 to $4.80 in 2026P). Four flagship origins — Brazil, Colombia, Vietnam, Ethiopia — are shown to be at severe-to-extreme risk. The video further cites ICO's projection that <strong>50% of global coffee arable land will disappear by 2050</strong>, directly threatening 120 million livelihoods.", "zh": "使用国际咖啡组织（ICO）、世界咖啡研究及 NOAA 2026 气候预测的数据，影片量化了 2026 厄尔尼诺的影响：均温上升 +2.8°C、降雨缺口 –38%、咖啡种植面积减少 24%。全球产量预计下降 37%（从 2022 年的 9800 万袋降至 2026P 的 6200 万袋），阿拉伯卡咖啡期货价格预计飙升 293%（从 2020 年的 $1.22/磅升至 2026P 的 $4.80）。巴西、哥伦比亚、越南、埃塞俄比亚四大旗舰产地均被标注为重度至极度风险。影片进一步引用 ICO 的预测——<strong>到 2050 年全球 50% 的咖啡可耕种土地将消失</strong>，直接威胁 1.2 亿人的生计。", "ar": "باستخدام بيانات من المنظمة الدولية للقهوة (ICO) وبحوث القهوة العالمية وتوقعات NOAA المناخية لعام 2026، يحدد الفيديو تأثير إلنينو 2026: +2.8°C ارتفاع في متوسط الحرارة، –38% عجز في الأمطار، و24% فقدان في مساحة زراعة القهوة. من المتوقع أن ينخفض الإنتاج العالمي بنسبة 37% (من 98 مليون كيس في 2022 إلى 62 مليوناً في 2026P)، بينما من المتوقع أن ترتفع أسعار العقود الآجلة للأرابيكا بنسبة 293% (من 1.22 دولار/رطل في 2020 إلى 4.80 دولار في 2026P). تُظهر الأصول الأربعة الرئيسية — البرازيل وكولومبيا وفيتنام وإثيوبيا — على أنها في خطر شديد إلى متطرف. يستشهد الفيديو كذلك بتوقعات ICO بأن <strong>50% من الأراضي الصالحة لزراعة القهوة عالمياً ستختفي بحلول عام 2050</strong>، مما يهدد مباشرة سبل عيش 120 مليون شخص."},
+    "layer2_title": {"en": "Layer 2 — Traditional Soil Cultivation Cannot Survive This", "zh": "第二层 — 传统土壤种植无法承受这一切", "ar": "الطبقة 2 — الزراعة التقليدية في التربة لا يمكنها البقاء"},
+    "layer2_text": {"en": "The video identifies three systemic vulnerabilities that traditional soil farming cannot mitigate: (1) <strong>Climate fragility</strong> — coffee requires 1,500–2,000mm stable rainfall and 18–24°C temperatures; El Niño breaks both, triggering a 65% surge in crop pests/diseases. (2) <strong>Water waste &amp; soil degradation</strong> — soil-grown coffee consumes up to 140 liters of water per cup and loses 35% of topsoil per decade. (3) <strong>Pest outbreak pressure</strong> — coffee leaf rust and coffee berry borer spread 55% faster under El Niño conditions, with soil farms having no isolation barrier, causing up to 50% yield losses and $340/ha extra pesticide cost.", "zh": "视频指出了传统土壤种植无法缓解的三个系统性脆弱环节：(1) <strong>气候脆弱性</strong>——咖啡需要 1,500–2,000mm 稳定降雨和 18–24°C 温度；厄尔尼诺打破两者，导致作物病虫害激增 65%。(2) <strong>水资源浪费与土壤退化</strong>——土壤种植咖啡每杯耗水高达 140 升，每十年表土流失 35%。(3) <strong>病虫害暴发压力</strong>——咖啡叶锈病和咖啡果小蠹在厄尔尼诺条件下传播速度加快 55%，土壤种植无隔离屏障，导致高达 50% 的产量损失和每公顷 $340 的额外农药成本。", "ar": "يحدد الفيديو ثلاث ثغرات منهجية لا يمكن للزراعة التقليدية في التربة التخفيف منها: (1) <strong>الهشاشة المناخية</strong> — تتطلب القهوة 1,500–2,000 ملم من الأمطار المستقرة ودرجات حرارة 18–24°C؛ يكسر إلنينو كليهما، مما يؤدي إلى زيادة 65% في آفات وأمراض المحاصيل. (2) <strong>هدر المياه وتدهور التربة</strong> — تستهلك القهوة المزروعة في التربة ما يصل إلى 140 لتراً من الماء لكل كوب وتفقد 35% من الطبقة السطحية كل عقد. (3) <strong>ضغط تفشي الآفات</strong> — ينتشر صدأ أوراق القهوة وسوسة حبة القهوة بسرعة 55% في ظروف إلنينو، بدون حواجز عزل في مزارع التربة، مما يتسبب في خسائر إنتاج تصل إلى 50% وتكلفة مبيدات إضافية قدرها 340 دولار/هكتار."},
+    "layer3_title": {"en": "Layer 3 — Aeroponics is the Only Defensible Answer", "zh": "第三层 — 气雾栽培是唯一可防御的答案", "ar": "الطبقة 3 — الضبوب هي الجواب الوحيد القابل للدفاع"},
+    "layer3_text": {"en": "The video closes with Napell BIO's aeroponic system delivering three structural wins: <strong>95% water reduction</strong> vs soil (root misting has no runoff), <strong>365-day uninterrupted production</strong> in fully climate-controlled 20–22°C vertical towers with 1,600 lux lighting, and <strong>3× growth speed</strong> via oxygen-rich nutrient mist that accelerates mineral uptake. The harvest cycle drops from 4 years to 12–14 months. This is precisely why Saudi Arabia — with its 2.4B m³ renewable water ceiling and Vision 2030 food-security mandate — is the highest-leverage geography in the world for this technology.", "zh": "视频以 Napell BIO 的气雾栽培系统实现的三项结构性胜利结尾：<strong>节水 95%</strong>（根系雾化无径流）、<strong>365 天不间断生产</strong>（20–22°C 全气候可控垂直塔，1,600 lux 光照）、<strong>生长速度 3 倍</strong>（富氧营养雾加速矿物质吸收）。收获周期从 4 年缩短至 12–14 个月。这正是为什么沙特阿拉伯——拥有 24 亿立方米可再生水上限和愿景 2030 粮食安全使命——是全球该技术最高杠杆的地理选择。", "ar": "يختتم الفيديو بفوز هيكلي ثلاثي لنظام الضبوب من Napell BIO: <strong>تخفيض 95% من المياه</strong> مقابل التربة (ضباب الجذور بدون جريان)، <strong>إنتاج متواصل 365 يوماً</strong> في أبراج عمودية مكيفة المناخ بالكامل 20–22°C بإضاءة 1,600 لوكس، و<strong>سرعة نمو 3 أضعاف</strong> عبر ضباب المغذيات الغني بالأكسجين الذي يسرع امتصاص المعادن. تنخفض دورة الحصاد من 4 سنوات إلى 12–14 شهراً. هذا هو بالضبط السبب الذي يجعل السعودية — بسقف 2.4 مليار م³ من المياه المتجددة وتفويض رؤية 2030 للأمن الغذائي — أعلى جغرافيا رافعة في العالم لهذه التقنية."},
+    "inv_title": {"en": "Implications for the Saudi Arabia Investment Thesis", "zh": "对沙特阿拉伯投资论点的影响", "ar": "تداعيات على فرضية الاستثمار في المملكة العربية السعودية"},
+    "inv1": {"en": "Time compression — Saudi cannot wait 25 years for traditional farms to be retrofitted. The El Niño crisis is <strong>now</strong>. Aeroponics is the only path to sovereign coffee security in this decade.", "zh": "时间压缩——沙特等不了 25 年来改造传统农场。厄尔尼诺危机<strong>现在</strong>已发生。气雾栽培是本十年内实现主权咖啡安全的唯一路径。", "ar": "ضغط الوقت — لا تستطيع السعودية الانتظار 25 عاماً لتحديث المزارع التقليدية. أزمة إلنينو <strong>الآن</strong>. الضبوب هي المسار الوحيد للأمن السيادي للقهوة في هذا العقد."},
+    "inv2": {"en": "Price tailwind — at projected $4.80/lb Arabica and tightening supply, every ton Napell produces in Saudi is sold into a structural bull market, accelerating the JV's path to breakeven.", "zh": "价格顺风——按预计 $4.80/磅的阿拉伯卡价格和日益紧张的供应，Napell 在沙特每生产一吨咖啡都进入结构性牛市，加速合资企业盈亏平衡之路。", "ar": "رياح الأسعار المؤاتية — عند 4.80 دولار/رطل المتوقعة للأرابيكا والمعروض المشدد، كل طن تنتجه Napell في السعودية يُباع في سوق صاعد هيكلي، مما يسرع مسار المشروع المشترك نحو نقطة التعادل."},
+    "inv3": {"en": "Strategic optionality — PIF's investment de-risks Vision 2030's food-security pillar while capturing a defensible position in the global indoor-coffee technology stack that no other Gulf sovereign is positioned to take.", "zh": "战略期权——PIF 的投资既降低了愿景 2030 粮食安全支柱的风险，又在全球室内咖啡技术栈中占据了一个任何其他海湾主权国家都无法抢占的防御性位置。", "ar": "الاختيارية الاستراتيجية — استثمار PIF يُقلل من مخاطر ركيزة الأمن الغذائي لرؤية 2030 بينما يلتقط موقعاً دفاعياً في مكدس تقنية القهوة الداخلية العالمية التي لا يوجد أي سيادي خليجي آخر في وضع يسمح له بأخذها."},
+    "transcript_title": {"en": "On-screen Text &amp; Data (Key Frames)", "zh": "屏幕文字与数据（关键帧）", "ar": "النص والبيانات على الشاشة (الإطارات الرئيسية)"},
+    "transcript_t0_5": {"en": "Opening — Napell BIO logo + tagline: <em>\"Growing the future, today\"</em>", "zh": "开场 — Napell BIO 标志 + 标语：<em>\"今天，播种未来\"</em>", "ar": "الافتتاح — شعار Napell BIO + الشعار: <em>\"اليوم، نزرع المستقبل\"</em>"},
+    "transcript_t10": {"en": "Title — <em>\"EL NIÑO 2026 → COFFEE CRISIS\"</em>. Subtitle in English: <em>\"How the world's most extreme El Niño threatens global coffee supply, and the aeroponic technology changing everything\"</em>.", "zh": "标题 — <em>\"2026 厄尔尼诺 → 咖啡危机\"</em>。英文副标题：<em>\"史上最强厄尔尼诺如何威胁全球咖啡供应，气雾栽培技术正在改写一切\"</em>。", "ar": "العنوان — <em>\"إلنينو 2026 ← أزمة القهوة\"</em>. العنوان الفرعي بالإنجليزية: <em>\"كيف يهدد أقوى إلنينو في العالم إمدادات القهوة العالمية، وكيف تغير تقنية الضبوب كل شيء\"</em>."},
+    "transcript_t15": {"en": "Section — <em>\"Top coffee origins face severe threats\"</em>: Brazil 88% risk, Colombia 74%, Vietnam 92%, Ethiopia 68%. Headline stats: +2.8°C, –38% rainfall, 24% planting area lost.", "zh": "章节 — <em>\"全球顶级咖啡产区面临严重威胁\"</em>：巴西 88% 风险、哥伦比亚 74%、越南 92%、埃塞俄比亚 68%。头条数据：+2.8°C、–38% 降雨、24% 种植面积消失。", "ar": "القسم — <em>\"أصول القهوة الرئيسية العالمية تواجه تهديدات شديدة\"</em>: البرازيل 88% خطر، كولومبيا 74%، فيتنام 92%، إثيوبيا 68%. إحصائيات رئيسية: +2.8°C، –38% أمطار، 24% مساحة زراعة ضائعة."},
+    "transcript_t25": {"en": "Section — <em>\"Supply shock &amp; price surge\"</em>: Global production –37% (98M → 62M bags, 2022 → 2026P); Arabica futures +293% ($1.22 → $4.80/lb, 2020 → 2026P). Source: ICO + WCR + NOAA.", "zh": "章节 — <em>\"供应冲击与价格飙升\"</em>：全球产量 –37%（98M → 62M 袋，2022 → 2026P）；阿拉伯卡期货 +293%（$1.22 → $4.80/磅，2020 → 2026P）。数据源：ICO + WCR + NOAA。", "ar": "القسم — <em>\"صدمة المعروض وارتفاع الأسعار\"</em>: الإنتاج العالمي –37% (98 مليون ← 62 مليون كيس، 2022 ← 2026P)؛ عقود الأرابيكا الآجلة +293% (1.22 ← 4.80 دولار/رطل، 2020 ← 2026P). المصدر: ICO + WCR + NOAA."},
+    "transcript_t35": {"en": "Section — <em>\"Coffee arable land will shrink 50% by 2050\"</em>. Source: ICO.", "zh": "章节 — <em>\"到 2050 年咖啡可耕种土地将减少 50%\"</em>。数据源：ICO。", "ar": "القسم — <em>\"ستنخفض الأراضي الصالحة لزراعة القهوة بنسبة 50% بحلول 2050\"</em>. المصدر: ICO."},
+    "transcript_t40": {"en": "Section — <em>\"3 systemic vulnerabilities\"</em>: ① Climate fragility (1,500–2,000mm rain &amp; 18–24°C required; +65% pest surge). ② Water waste &amp; soil degradation (140L water per cup; 35% topsoil loss/decade). ③ Pest outbreak pressure (+55% leaf rust; +$340/ha pesticide cost; up to 50% yield loss).", "zh": "章节 — <em>\"三大系统性脆弱环节\"</em>：① 气候脆弱性（需 1,500–2,000mm 降雨 &amp; 18–24°C；病虫害激增 65%）。② 水资源浪费与土壤退化（每杯耗水 140 升；每十年表土流失 35%）。③ 病虫害暴发压力（叶锈病 +55%；每公顷额外农药成本 +$340；高达 50% 产量损失）。", "ar": "القسم — <em>\"3 ثغرات منهجية\"</em>: ① الهشاشة المناخية (1,500–2,000 ملم أمطار &amp; 18–24°C مطلوبة؛ +65% ارتفاع في الآفات). ② هدر المياه وتدهور التربة (140 لتر/كوب؛ 35% فقدان تربة سطحية/عقد). ③ ضغط تفشي الآفات (+55% صدأ الأوراق؛ +340 دولار/هكتار تكلفة مبيدات؛ حتى 50% خسارة إنتاج)."},
+    "transcript_t55": {"en": "Section — <em>\"Aeroponic Coffee Cultivation System\"</em>: 95% water saving, 365-day uninterrupted production, 3× growth speed, harvest cycle 4 yr → 12–14 mo.", "zh": "章节 — <em>\"气雾栽培咖啡种植系统\"</em>：节水 95%、365 天不间断生产、生长速度 3 倍、收获周期 4 年 → 12–14 个月。", "ar": "القسم — <em>\"نظام زراعة القهوة بالضبوب\"</em>: توفير 95% من المياه، إنتاج متواصل 365 يوماً، سرعة نمو 3 أضعاف، دورة حصاد 4 سنوات ← 12–14 شهراً."},
+    "transcript_t65": {"en": "Closing — Napell BIO + <em>\"Growing the future, today\"</em>. Two closing messages: (1) 2026 Super El Niño is disrupting the global coffee supply chain. (2) Traditional soil cultivation cannot withstand extreme climate shocks.", "zh": "结尾 — Napell BIO + <em>\"今天，播种未来\"</em>。两条收尾信息：(1) 2026 超级厄尔尼诺正在扰乱全球咖啡供应链。(2) 传统土壤种植无法承受极端气候冲击。", "ar": "الختام — Napell BIO + <em>\"اليوم، نزرع المستقبل\"</em>. رسالتان ختاميتان: (1) إلنينو 2026 الفائق يعطل سلسلة إمداد القهوة العالمية. (2) الزراعة التقليدية في التربة لا يمكنها تحمل صدمات المناخ المتطرف."},
+    "use_title": {"en": "How to Use This Video with PIF", "zh": "如何向 PIF 展示本视频", "ar": "كيفية استخدام هذا الفيديو مع PIF"},
+    "use1": {"en": "<strong>Open the meeting</strong> with the 68-second briefing — it sets the urgency frame in under two minutes and reaches the C-suite without a slide deck.", "zh": "<strong>开场播放</strong>——用 68 秒简报开场，两分钟内在没有幻灯片的情况下向高管层传达紧迫感。", "ar": "<strong>افتتح الاجتماع</strong> بالموجز الذي مدته 68 ثانية — يحدد إطار الإلحاح في أقل من دقيقتين ويصل إلى الإدارة العليا بدون شرائح."},
+    "use2": {"en": "<strong>Anchor the data</strong> by linking to the source citations (ICO, NOAA, WCR) shown in the closing frames — PIF analysts can verify independently.", "zh": "<strong>锚定数据</strong>——通过视频结尾处显示的来源引用（ICO、NOAA、WCR），PIF 分析师可独立验证。", "ar": "<strong>ربط البيانات</strong> بالإشارة إلى المصادر (ICO، NOAA، WCR) المعروضة في الإطارات الختامية — يمكن لمحللـي PIF التحقق بشكل مستقل."},
+    "use3": {"en": "<strong>Hand off</strong> to Section 04 (Market) and Section 02 (Context) of this proposal for the full financial and strategic depth — the video is the hook, the proposal is the close.", "zh": "<strong>接力</strong>至本提案第 4 节（市场）和第 2 节（背景）以获取完整财务与战略深度——视频是钩子，提案是收单。", "ar": "<strong>سلّم</strong> إلى القسم 04 (السوق) والقسم 02 (السياق) من هذا العرض للعمق المالي والاستراتيجي الكامل — الفيديو هو الطُعم، والعرض هو الإغلاق."},
+  },
+
   "contact": {
     "sec_num": {"en": "Next Steps", "zh": "下一步", "ar": "الخطوات التالية"},
     "sec_title": {"en": "Let's Build Saudi Arabia's Coffee Future", "zh": "让我们建设沙特阿拉伯的咖啡未来", "ar": "لنبني مستقبل القهوة في السعودية"},
@@ -434,6 +472,13 @@ NAV_HTML = """<nav>
       <a href="alignment.html" data-i18n="common.nav_alignment">Alignment</a>
     </li>
     <li class="nav-dropdown">
+      <a href="video.html" data-i18n="common.nav_video">Video Brief</a>
+      <div class="dropdown-menu">
+        <a href="video.html" data-i18n="common.dd_video_crisis">El Niño 2026 Coffee Crisis</a>
+        <a href="video.html" data-i18n="common.dd_video_solution">Aeroponic Solution</a>
+      </div>
+    </li>
+    <li class="nav-dropdown">
       <a href="blueprints.html" data-i18n="common.nav_blueprints">Blueprints</a>
       <div class="dropdown-menu">
         <a href="blueprints.html" data-i18n="common.dd_bp_robotic">Robotic Arm Blueprint</a>
@@ -467,6 +512,7 @@ NAV_HTML = """<nav>
   <a href="alignment.html" data-i18n="common.nav_alignment">Alignment</a>
   <a href="blueprints.html" data-i18n="common.nav_blueprints">Blueprints</a>
   <a href="drawings.html" data-i18n="common.nav_drawings">Drawings</a>
+  <a href="video.html" data-i18n="common.nav_video">Video Brief</a>
   <a href="contact.html" class="mobile-cta" data-i18n="common.nav_connect">Connect</a>
   <div class="mobile-lang-switcher">
     <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
@@ -957,6 +1003,93 @@ def page_contact():
 </section>"""
     return HEAD.format(title="Connect — PIF × NAPELL", nav=NAV_HTML) + '<div class="page-wrapper">' + body + '</div>' + TAIL.format(footer=FOOTER_HTML)
 
+def page_video():
+    body = """<section class="section">
+  <div class="section-header">
+    <div class="num" data-i18n="video.sec_num">Section 12</div>
+    <h2 data-i18n="video.sec_title">Video Brief — El Niño 2026 &amp; the Aeroponic Answer</h2>
+    <p data-i18n="video.sec_desc">A 68-second climate intelligence briefing produced by Napell BIO — connecting the global El Niño 2026 crisis to the aeroponic solution and the Saudi opportunity.</p>
+  </div>
+
+  <!-- Video Player -->
+  <div style="max-width:960px;margin:0 auto 40px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden">
+    <video controls playsinline preload="metadata" style="width:100%;display:block;background:#000" poster="assets/coffee-aeroponic-napellbio.mp4">
+      <source src="assets/coffee-aeroponic-napellbio.mp4" type="video/mp4">
+      <p data-i18n="video.no_video_warning">Your browser does not support embedded video. Download it instead:</p>
+    </video>
+    <div style="padding:16px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
+      <div>
+        <div style="font-weight:700;font-size:15px;color:var(--text-primary)" data-i18n="video.video_label">Watch Briefing</div>
+        <div style="font-size:12px;color:var(--text-muted);margin-top:2px" data-i18n="video.video_sublabel">68 seconds · 1080p · Mandarin narration with on-screen text in EN/中文/العربية</div>
+      </div>
+      <a href="assets/coffee-aeroponic-napellbio.mp4" download class="nav-cta" style="font-size:13px" data-i18n="video.download_btn">Download MP4 (8.2 MB)</a>
+    </div>
+  </div>
+
+  <!-- Analysis -->
+  <div style="max-width:960px;margin:0 auto">
+    <h3 style="font-size:24px;margin-bottom:12px" data-i18n="video.analysis_title">Why This Video Matters to the Saudi Coffee Chain</h3>
+    <p style="font-size:15px;color:var(--text-secondary);margin-bottom:40px;line-height:1.8" data-i18n="video.analysis_intro">This briefing distills the strategic case in 68 seconds. It is a market-reality video — not a product demo — designed to anchor the conversation between Napell and PIF in three layers of evidence:</p>
+
+    <!-- Layer 1 -->
+    <div class="card" style="margin-bottom:24px;border-left:3px solid var(--accent)">
+      <h4 style="font-size:17px;margin-bottom:12px;color:var(--accent)" data-i18n="video.layer1_title">Layer 1 — The Threat is Real, Quantified, and Accelerating</h4>
+      <p style="font-size:14px;color:var(--text-secondary);line-height:1.9" data-i18n="video.layer1_text">Using data sourced from the International Coffee Organization (ICO), World Coffee Research, and NOAA's 2026 climate forecast, the video quantifies the 2026 El Niño impact: +2.8°C mean temperature increase, –38% rainfall deficit, and 24% loss of coffee planting area. Global production is projected to fall 37% (from 98M bags in 2022 to 62M in 2026P), while Arabica futures prices are projected to surge 293% (from $1.22/lb in 2020 to $4.80 in 2026P). Four flagship origins — Brazil, Colombia, Vietnam, Ethiopia — are shown to be at severe-to-extreme risk. The video further cites ICO's projection that <strong>50% of global coffee arable land will disappear by 2050</strong>, directly threatening 120 million livelihoods.</p>
+    </div>
+
+    <!-- Layer 2 -->
+    <div class="card" style="margin-bottom:24px;border-left:3px solid var(--purple)">
+      <h4 style="font-size:17px;margin-bottom:12px;color:var(--purple)" data-i18n="video.layer2_title">Layer 2 — Traditional Soil Cultivation Cannot Survive This</h4>
+      <p style="font-size:14px;color:var(--text-secondary);line-height:1.9" data-i18n="video.layer2_text">The video identifies three systemic vulnerabilities that traditional soil farming cannot mitigate: (1) <strong>Climate fragility</strong> — coffee requires 1,500–2,000mm stable rainfall and 18–24°C temperatures; El Niño breaks both, triggering a 65% surge in crop pests/diseases. (2) <strong>Water waste &amp; soil degradation</strong> — soil-grown coffee consumes up to 140 liters of water per cup and loses 35% of topsoil per decade. (3) <strong>Pest outbreak pressure</strong> — coffee leaf rust and coffee berry borer spread 55% faster under El Niño conditions, with soil farms having no isolation barrier, causing up to 50% yield losses and $340/ha extra pesticide cost.</p>
+    </div>
+
+    <!-- Layer 3 -->
+    <div class="card" style="margin-bottom:40px;border-left:3px solid var(--accent)">
+      <h4 style="font-size:17px;margin-bottom:12px;color:var(--accent)" data-i18n="video.layer3_title">Layer 3 — Aeroponics is the Only Defensible Answer</h4>
+      <p style="font-size:14px;color:var(--text-secondary);line-height:1.9" data-i18n="video.layer3_text">The video closes with Napell BIO's aeroponic system delivering three structural wins: <strong>95% water reduction</strong> vs soil (root misting has no runoff), <strong>365-day uninterrupted production</strong> in fully climate-controlled 20–22°C vertical towers with 1,600 lux lighting, and <strong>3× growth speed</strong> via oxygen-rich nutrient mist that accelerates mineral uptake. The harvest cycle drops from 4 years to 12–14 months. This is precisely why Saudi Arabia — with its 2.4B m³ renewable water ceiling and Vision 2030 food-security mandate — is the highest-leverage geography in the world for this technology.</p>
+    </div>
+
+    <!-- Investment Implications -->
+    <h3 style="font-size:22px;margin-bottom:20px" data-i18n="video.inv_title">Implications for the Saudi Arabia Investment Thesis</h3>
+    <div class="card-grid col3" style="margin-bottom:40px">
+      <div class="card"><p style="font-size:14px;color:var(--text-secondary);line-height:1.9" data-i18n="video.inv1">Time compression — Saudi cannot wait 25 years for traditional farms to be retrofitted. The El Niño crisis is <strong>now</strong>. Aeroponics is the only path to sovereign coffee security in this decade.</p></div>
+      <div class="card"><p style="font-size:14px;color:var(--text-secondary);line-height:1.9" data-i18n="video.inv2">Price tailwind — at projected $4.80/lb Arabica and tightening supply, every ton Napell produces in Saudi is sold into a structural bull market, accelerating the JV's path to breakeven.</p></div>
+      <div class="card"><p style="font-size:14px;color:var(--text-secondary);line-height:1.9" data-i18n="video.inv3">Strategic optionality — PIF's investment de-risks Vision 2030's food-security pillar while capturing a defensible position in the global indoor-coffee technology stack that no other Gulf sovereign is positioned to take.</p></div>
+    </div>
+
+    <!-- Transcript -->
+    <h3 style="font-size:22px;margin-bottom:20px" data-i18n="video.transcript_title">On-screen Text &amp; Data (Key Frames)</h3>
+    <div style="display:flex;flex-direction:column;gap:16px;margin-bottom:40px">
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">0–5s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t0_5">Opening — Napell BIO logo + tagline: <em>"Growing the future, today"</em></p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~10s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t10">Title — <em>"EL NIÑO 2026 → COFFEE CRISIS"</em>. Subtitle in English: <em>"How the world's most extreme El Niño threatens global coffee supply, and the aeroponic technology changing everything"</em>.</p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~15s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t15">Section — <em>"Top coffee origins face severe threats"</em>: Brazil 88% risk, Colombia 74%, Vietnam 92%, Ethiopia 68%. Headline stats: +2.8°C, –38% rainfall, 24% planting area lost.</p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~25s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t25">Section — <em>"Supply shock &amp; price surge"</em>: Global production –37% (98M → 62M bags, 2022 → 2026P); Arabica futures +293% ($1.22 → $4.80/lb, 2020 → 2026P). Source: ICO + WCR + NOAA.</p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~35s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t35">Section — <em>"Coffee arable land will shrink 50% by 2050"</em>. Source: ICO.</p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~40s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t40">Section — <em>"3 systemic vulnerabilities"</em>: ① Climate fragility (1,500–2,000mm rain &amp; 18–24°C required; +65% pest surge). ② Water waste &amp; soil degradation (140L water per cup; 35% topsoil loss/decade). ③ Pest outbreak pressure (+55% leaf rust; +$340/ha pesticide cost; up to 50% yield loss).</p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~55s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t55">Section — <em>"Aeroponic Coffee Cultivation System"</em>: 95% water saving, 365-day uninterrupted production, 3× growth speed, harvest cycle 4 yr → 12–14 mo.</p></div>
+      <div class="card" style="padding:16px 20px"><span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">~65s</span><p style="font-size:14px;color:var(--text-secondary);margin-top:6px;line-height:1.7" data-i18n="video.transcript_t65">Closing — Napell BIO + <em>"Growing the future, today"</em>. Two closing messages: (1) 2026 Super El Niño is disrupting the global coffee supply chain. (2) Traditional soil cultivation cannot withstand extreme climate shocks.</p></div>
+    </div>
+
+    <!-- How to Use This Video -->
+    <h3 style="font-size:22px;margin-bottom:20px" data-i18n="video.use_title">How to Use This Video with PIF</h3>
+    <div style="display:flex;flex-direction:column;gap:16px;margin-bottom:20px">
+      <div class="card" style="padding:16px 20px;display:flex;align-items:flex-start;gap:14px">
+        <span style="font-size:18px;flex-shrink:0;margin-top:2px">1.</span>
+        <p style="font-size:14px;color:var(--text-secondary);line-height:1.7;margin:0" data-i18n="video.use1"><strong>Open the meeting</strong> with the 68-second briefing — it sets the urgency frame in under two minutes and reaches the C-suite without a slide deck.</p>
+      </div>
+      <div class="card" style="padding:16px 20px;display:flex;align-items:flex-start;gap:14px">
+        <span style="font-size:18px;flex-shrink:0;margin-top:2px">2.</span>
+        <p style="font-size:14px;color:var(--text-secondary);line-height:1.7;margin:0" data-i18n="video.use2"><strong>Anchor the data</strong> by linking to the source citations (ICO, NOAA, WCR) shown in the closing frames — PIF analysts can verify independently.</p>
+      </div>
+      <div class="card" style="padding:16px 20px;display:flex;align-items:flex-start;gap:14px">
+        <span style="font-size:18px;flex-shrink:0;margin-top:2px">3.</span>
+        <p style="font-size:14px;color:var(--text-secondary);line-height:1.7;margin:0" data-i18n="video.use3"><strong>Hand off</strong> to Section 04 (Market) and Section 02 (Context) of this proposal for the full financial and strategic depth — the video is the hook, the proposal is the close.</p>
+      </div>
+    </div>
+  </div>
+</section>"""
+    return HEAD.format(title="Video Brief — PIF × NAPELL", nav=NAV_HTML) + '<div class="page-wrapper">' + body + '</div>' + TAIL.format(footer=FOOTER_HTML)
+
 # ============================================================
 # Main Execution
 # ============================================================
@@ -981,6 +1114,7 @@ if __name__ == "__main__":
         "alignment.html": page_alignment(),
         "blueprints.html": page_blueprints(),
         "drawings.html": page_drawings(),
+        "video.html": page_video(),
         "contact.html": page_contact(),
     }
     for name, html in pages.items():
