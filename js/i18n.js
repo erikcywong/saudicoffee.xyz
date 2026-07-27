@@ -62,9 +62,9 @@ const I18N = {
       "ar": "الرسومات"
     },
     "nav_video": {
-      "en": "Video Brief",
-      "zh": "视频简报",
-      "ar": "فيديو توضيحي"
+      "en": "El Niño",
+      "zh": "厄尔尼诺",
+      "ar": "ظاهرة النينو"
     },
     "nav_connect": {
       "en": "Connect",

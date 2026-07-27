@@ -21,7 +21,7 @@ T = {
     "nav_alignment": {"en": "Alignment", "zh": "战略对齐", "ar": "التوافق"},
     "nav_blueprints": {"en": "Blueprints", "zh": "蓝图", "ar": "المخططات"},
     "nav_drawings": {"en": "Drawings", "zh": "图纸", "ar": "الرسومات"},
-    "nav_video": {"en": "Video Brief", "zh": "视频简报", "ar": "فيديو توضيحي"},
+    "nav_video": {"en": "El Niño", "zh": "厄尔尼诺", "ar": "ظاهرة النينو"},
     "nav_connect": {"en": "Connect", "zh": "联系", "ar": "تواصل"},
     # Dropdowns
     "dd_summary_exec": {"en": "Executive Summary", "zh": "执行摘要", "ar": "الملخص التنفيذي"},
@@ -425,7 +425,7 @@ NAV_HTML = """<nav>
       </div>
     </li>
     <li class="nav-dropdown">
-      <a href="video.html" data-i18n="common.nav_video">Video Brief</a>
+      <a href="video.html" data-i18n="common.nav_video">El Niño</a>
       <div class="dropdown-menu">
         <a href="video.html" data-i18n="common.dd_video_crisis">El Niño 2026 Coffee Crisis</a>
         <a href="video.html" data-i18n="common.dd_video_solution">Aeroponic Solution</a>
@@ -503,7 +503,7 @@ NAV_HTML = """<nav>
 <div class="mobile-menu" id="mobileMenu">
   <a href="index.html" data-i18n="common.nav_summary">Summary</a>
   <a href="context.html" data-i18n="common.nav_context">Context</a>
-  <a href="video.html" data-i18n="common.nav_video">Video Brief</a>
+  <a href="video.html" data-i18n="common.nav_video">El Niño</a>
   <a href="technology.html" data-i18n="common.nav_technology">Technology</a>
   <a href="market.html" data-i18n="common.nav_market">Market</a>
   <a href="proposal.html" data-i18n="common.nav_proposal">Proposal</a>
